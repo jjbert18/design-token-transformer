@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 03 Aug 2021 15:04:19 GMT
+// Generated on Wed, 04 Aug 2021 20:51:12 GMT
 
 
 import UIKit
@@ -42,10 +42,10 @@ public class StyleDictionary {
     public static let breakpointsMd = 1024
     public static let breakpointsSm = 768
     public static let colorColorsBlue = UIColor(red: 0.016, green: 0.290, blue: 1.000, alpha: 1)
+    public static let colorColorsBonnie0 = UIColor(red: 0.251, green: 1.000, blue: 0.729, alpha: 1)
+    public static let colorColorsBonnie1 = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.1)
     public static let colorColorsSpecialCharacters = UIColor(red: 0.251, green: 0.875, blue: 0.314, alpha: 1) /* Emoji */
     public static let colorColorsSpecialCharactersNderung = UIColor(red: 0.204, green: 0.337, blue: 0.686, alpha: 1)
-    public static let colorColorsTeal0 = UIColor(red: 0.251, green: 1.000, blue: 0.729, alpha: 1)
-    public static let colorColorsTeal1 = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.1)
     public static let effectBackgroundBlurRadius = 4
     public static let effectBackgroundBlurType = backgroundBlur
     public static let effectDropShadowSingleColor = rgba(0, 0, 0, 0.25)

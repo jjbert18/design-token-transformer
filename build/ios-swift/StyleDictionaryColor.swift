@@ -4,17 +4,17 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 03 Aug 2021 15:04:19 GMT
+// Generated on Wed, 04 Aug 2021 20:51:12 GMT
 
 
 import UIKit
 
 public enum StyleDictionaryColor {
     public static let colorsBlue = UIColor(red: 0.016, green: 0.290, blue: 1.000, alpha: 1)
+    public static let colorsBonnie0 = UIColor(red: 0.251, green: 1.000, blue: 0.729, alpha: 1)
+    public static let colorsBonnie1 = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.1)
     public static let colorsSpecialCharacters = UIColor(red: 0.251, green: 0.875, blue: 0.314, alpha: 1) /* Emoji */
     public static let colorsSpecialCharactersNderung = UIColor(red: 0.204, green: 0.337, blue: 0.686, alpha: 1)
-    public static let colorsTeal0 = UIColor(red: 0.251, green: 1.000, blue: 0.729, alpha: 1)
-    public static let colorsTeal1 = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.1)
     public static let dashedOutsideStroke = rgba(0, 0, 0, 1)
     public static let dropShadowSingleColor = rgba(0, 0, 0, 0.25)
     public static let gradientMultiple0Stops0Color = rgba(255, 184, 0, 1)

@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 03 Aug 2021 15:04:19 GMT
+// Generated on Wed, 04 Aug 2021 20:51:12 GMT
 
 
 #import <UIKit/UIKit.h>
@@ -26,8 +26,8 @@ GradientGradientMultiple2Stops0Color,
 GradientGradientMultiple2Stops1Color,
 GradientGradientMultiple3Stops0Color,
 GradientGradientMultiple3Stops1Color,
-ColorColorsTeal0,
-ColorColorsTeal1,
+ColorColorsBonnie0,
+ColorColorsBonnie1,
 ColorColorsBlue,
 ColorColorsSpecialCharacters,
 ColorColorsSpecialCharactersNderung,
