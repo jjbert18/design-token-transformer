@@ -1,0 +1,13 @@
+{
+  "name": "DStokens",
+  "description": "Design System tokens",
+  "license": "GPL-2.0+",
+  "type": "vcs",
+  "homepage": "https://github.com/jjbert18/design-token-transformer",
+  "authors": [
+    {
+      "name": "Jacob Berthelsen",
+      "email": "jacob.berthelsen@vmlyr.com"
+    }
+  ]
+}
