@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 12 Nov 2021 22:52:09 GMT
+// Generated on Sat, 13 Nov 2021 16:01:33 GMT
 
 
 import UIKit
@@ -17,7 +17,7 @@ public enum StyleDictionaryColor {
     public static let backgroundLightPrimary = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
     public static let backgroundLightSecondary = UIColor(red: 0.976, green: 0.976, blue: 0.976, alpha: 1)
     public static let backgroundLightTertiary = UIColor(red: 0.949, green: 0.949, blue: 0.949, alpha: 1)
-    public static let borderFocus = UIColor(red: 0.000, green: 0.549, blue: 1.000, alpha: 0.5019607843137255)
+    public static let borderFocus = UIColor(red: 0.000, green: 0.549, blue: 1.000, alpha: 0.5)
     public static let borderUtility = UIColor(red: 0.867, green: 0.878, blue: 0.886, alpha: 1)
     public static let brandPrimary = UIColor(red: 0.000, green: 0.314, blue: 0.663, alpha: 1)
     public static let brandSecondary = UIColor(red: 0.000, green: 0.549, blue: 1.000, alpha: 1)
@@ -64,7 +64,7 @@ public enum StyleDictionaryColor {
     public static let buttonSecondaryBorder = UIColor(red: 0.867, green: 0.878, blue: 0.886, alpha: 1)
     public static let buttonSecondaryText = UIColor(red: 0.255, green: 0.294, blue: 0.314, alpha: 1)
     public static let buttonSecondaryTextDisabled = UIColor(red: 0.498, green: 0.529, blue: 0.541, alpha: 1)
-    public static let depth = UIColor(red: 0.086, green: 0.090, blue: 0.094, alpha: 0.1607843137254902)
+    public static let depth = UIColor(red: 0.086, green: 0.090, blue: 0.094, alpha: 0.16)
     public static let inputBg = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
     public static let inputBgDisabled = UIColor(red: 0.949, green: 0.949, blue: 0.949, alpha: 1)
     public static let inputBorderActive = UIColor(red: 0.000, green: 0.314, blue: 0.663, alpha: 1)
@@ -73,6 +73,13 @@ public enum StyleDictionaryColor {
     public static let pillPrimary = UIColor(red: 0.976, green: 0.573, blue: 0.133, alpha: 1)
     public static let pillSecondary = UIColor(red: 0.000, green: 0.549, blue: 1.000, alpha: 1)
     public static let pillTertiary = UIColor(red: 0.200, green: 0.200, blue: 0.200, alpha: 1)
+    public static let shadowCardCardColor = rgba(22, 23, 24, 0.16)
+    public static let shadowCardCardHoverColor = rgba(22, 23, 24, 0.16)
+    public static let shadowFocusFocusColor = rgba(0, 140, 225, 1)
+    public static let shadowGeneralNavColor = rgba(22, 23, 24, 0.16)
+    public static let shadowGeneralOneColor = rgba(22, 23, 24, 0.16)
+    public static let shadowGeneralThreeColor = rgba(22, 23, 24, 0.16)
+    public static let shadowGeneralTwoColor = rgba(22, 23, 24, 0.16)
     public static let text = UIColor(red: 0.255, green: 0.294, blue: 0.314, alpha: 1)
     public static let utilityAttention = UIColor(red: 0.976, green: 0.573, blue: 0.133, alpha: 1)
     public static let utilityAttentionSubtle = UIColor(red: 1.000, green: 0.949, blue: 0.925, alpha: 1)

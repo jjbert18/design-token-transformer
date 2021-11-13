@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 12 Nov 2021 22:52:09 GMT
+// Generated on Sat, 13 Nov 2021 16:01:33 GMT
 
 
 #import <UIKit/UIKit.h>
@@ -79,7 +79,14 @@ ColorUtilityPositiveSubtle,
 ColorUtilityAttention,
 ColorUtilityAttentionSubtle,
 ColorUtilityNegative,
-ColorUtilityNegativeSubtle
+ColorUtilityNegativeSubtle,
+EffectShadowGeneralOneColor,
+EffectShadowGeneralTwoColor,
+EffectShadowGeneralThreeColor,
+EffectShadowGeneralNavColor,
+EffectShadowCardCardColor,
+EffectShadowCardCardHoverColor,
+EffectShadowFocusFocusColor
 };
 
 @interface StyleDictionaryColor : NSObject
