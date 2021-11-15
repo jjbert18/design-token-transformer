@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Sat, 13 Nov 2021 16:01:33 GMT
+// Generated on Mon, 15 Nov 2021 22:17:06 GMT
 
 
 import UIKit
@@ -19,7 +19,7 @@ public class StyleDictionary {
     public static let colorBackgroundLightTertiary = UIColor(red: 0.949, green: 0.949, blue: 0.949, alpha: 1)
     public static let colorBorderFocus = UIColor(red: 0.000, green: 0.549, blue: 1.000, alpha: 0.5)
     public static let colorBorderUtility = UIColor(red: 0.867, green: 0.878, blue: 0.886, alpha: 1)
-    public static let colorBrandPrimary = UIColor(red: 0.000, green: 0.314, blue: 0.663, alpha: 1)
+    public static let colorBrandPrimary = UIColor(red: 0.000, green: 0.314, blue: 0.663, alpha: 1) /* swatch-blue */
     public static let colorBrandSecondary = UIColor(red: 0.000, green: 0.549, blue: 1.000, alpha: 1)
     public static let colorBrandTertiary = UIColor(red: 0.000, green: 0.184, blue: 0.333, alpha: 1)
     public static let colorButtonAttentionBg = UIColor(red: 0.976, green: 0.573, blue: 0.133, alpha: 1)
@@ -68,7 +68,7 @@ public class StyleDictionary {
     public static let colorInputBg = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
     public static let colorInputBgDisabled = UIColor(red: 0.949, green: 0.949, blue: 0.949, alpha: 1)
     public static let colorInputBorderActive = UIColor(red: 0.000, green: 0.314, blue: 0.663, alpha: 1)
-    public static let colorInputBorderDefault = UIColor(red: 0.255, green: 0.294, blue: 0.314, alpha: 1)
+    public static let colorInputBorderDefault = UIColor(red: 0.718, green: 0.729, blue: 0.741, alpha: 1)
     public static let colorInputBorderDisabled = UIColor(red: 0.867, green: 0.878, blue: 0.886, alpha: 1)
     public static let colorPillPrimary = UIColor(red: 0.976, green: 0.573, blue: 0.133, alpha: 1)
     public static let colorPillSecondary = UIColor(red: 0.000, green: 0.549, blue: 1.000, alpha: 1)
@@ -182,6 +182,18 @@ public class StyleDictionary {
     public static let fontDisplay1BoldParagraphSpacing = "0"
     public static let fontDisplay1BoldTextCase = "none"
     public static let fontDisplay1BoldTextDecoration = "none"
+    public static let fontDisplay1RegularFontFamily = "Helvetica Neue"
+    public static let fontDisplay1RegularFontSize = "44"
+    public static let fontDisplay1RegularFontStretch = "normal"
+    public static let fontDisplay1RegularFontStyle = "normal"
+    public static let fontDisplay1RegularFontStyleOld = "Regular"
+    public static let fontDisplay1RegularFontWeight = "400"
+    public static let fontDisplay1RegularLetterSpacing = "0"
+    public static let fontDisplay1RegularLineHeight = "47.96"
+    public static let fontDisplay1RegularParagraphIndent = "0"
+    public static let fontDisplay1RegularParagraphSpacing = "0"
+    public static let fontDisplay1RegularTextCase = "none"
+    public static let fontDisplay1RegularTextDecoration = "none"
     public static let fontDisplay2BoldFontFamily = "Helvetica Neue"
     public static let fontDisplay2BoldFontSize = "36"
     public static let fontDisplay2BoldFontStretch = "normal"
@@ -206,18 +218,6 @@ public class StyleDictionary {
     public static let fontDisplay2RegularParagraphSpacing = "0"
     public static let fontDisplay2RegularTextCase = "none"
     public static let fontDisplay2RegularTextDecoration = "none"
-    public static let fontDisplayRegularFontFamily = "Helvetica Neue"
-    public static let fontDisplayRegularFontSize = "44"
-    public static let fontDisplayRegularFontStretch = "normal"
-    public static let fontDisplayRegularFontStyle = "normal"
-    public static let fontDisplayRegularFontStyleOld = "Regular"
-    public static let fontDisplayRegularFontWeight = "400"
-    public static let fontDisplayRegularLetterSpacing = "0"
-    public static let fontDisplayRegularLineHeight = "47.96"
-    public static let fontDisplayRegularParagraphIndent = "0"
-    public static let fontDisplayRegularParagraphSpacing = "0"
-    public static let fontDisplayRegularTextCase = "none"
-    public static let fontDisplayRegularTextDecoration = "none"
     public static let fontHeading2FontFamily = "Helvetica Neue"
     public static let fontHeading2FontSize = "22"
     public static let fontHeading2FontStretch = "normal"
@@ -362,4 +362,11 @@ public class StyleDictionary {
     public static let fontHeadingXxsParagraphSpacing = "0"
     public static let fontHeadingXxsTextCase = "none"
     public static let fontHeadingXxsTextDecoration = "none"
+    public static let sizesIconLarge = 32 /* Option for icon size */
+    public static let sizesIconRegular = 24 /* Option for icon size */
+    public static let sizesIconSmall = 20 /* Option for icon size */
+    public static let sizesIconXlarge = 40 /* Option for icon size */
+    public static let sizesIconXsmall = 16 /* Option for icon size */
+    public static let sizesIconXxlarge = 52 /* Option for icon size */
+    public static let sizesIconXxsmall = 12 /* Option for icon size */
 }

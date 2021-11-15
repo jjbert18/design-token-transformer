@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Sat, 13 Nov 2021 16:01:33 GMT
+// Generated on Mon, 15 Nov 2021 22:17:06 GMT
 
 
 import UIKit
@@ -19,7 +19,7 @@ public enum StyleDictionaryColor {
     public static let backgroundLightTertiary = UIColor(red: 0.949, green: 0.949, blue: 0.949, alpha: 1)
     public static let borderFocus = UIColor(red: 0.000, green: 0.549, blue: 1.000, alpha: 0.5)
     public static let borderUtility = UIColor(red: 0.867, green: 0.878, blue: 0.886, alpha: 1)
-    public static let brandPrimary = UIColor(red: 0.000, green: 0.314, blue: 0.663, alpha: 1)
+    public static let brandPrimary = UIColor(red: 0.000, green: 0.314, blue: 0.663, alpha: 1) /* swatch-blue */
     public static let brandSecondary = UIColor(red: 0.000, green: 0.549, blue: 1.000, alpha: 1)
     public static let brandTertiary = UIColor(red: 0.000, green: 0.184, blue: 0.333, alpha: 1)
     public static let buttonAttentionBg = UIColor(red: 0.976, green: 0.573, blue: 0.133, alpha: 1)
@@ -68,7 +68,7 @@ public enum StyleDictionaryColor {
     public static let inputBg = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
     public static let inputBgDisabled = UIColor(red: 0.949, green: 0.949, blue: 0.949, alpha: 1)
     public static let inputBorderActive = UIColor(red: 0.000, green: 0.314, blue: 0.663, alpha: 1)
-    public static let inputBorderDefault = UIColor(red: 0.255, green: 0.294, blue: 0.314, alpha: 1)
+    public static let inputBorderDefault = UIColor(red: 0.718, green: 0.729, blue: 0.741, alpha: 1)
     public static let inputBorderDisabled = UIColor(red: 0.867, green: 0.878, blue: 0.886, alpha: 1)
     public static let pillPrimary = UIColor(red: 0.976, green: 0.573, blue: 0.133, alpha: 1)
     public static let pillSecondary = UIColor(red: 0.000, green: 0.549, blue: 1.000, alpha: 1)

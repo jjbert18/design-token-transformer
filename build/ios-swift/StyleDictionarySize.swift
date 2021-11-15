@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Sat, 13 Nov 2021 16:01:33 GMT
+// Generated on Mon, 15 Nov 2021 22:17:06 GMT
 
 
 import UIKit
@@ -40,6 +40,12 @@ public enum StyleDictionarySize {
     public static let display1BoldLineHeight = "47.96"
     public static let display1BoldParagraphIndent = "0"
     public static let display1BoldParagraphSpacing = "0"
+    public static let display1RegularFontSize = "44"
+    public static let display1RegularFontWeight = "400"
+    public static let display1RegularLetterSpacing = "0"
+    public static let display1RegularLineHeight = "47.96"
+    public static let display1RegularParagraphIndent = "0"
+    public static let display1RegularParagraphSpacing = "0"
     public static let display2BoldFontSize = "36"
     public static let display2BoldFontWeight = "700"
     public static let display2BoldLetterSpacing = "0"
@@ -52,12 +58,6 @@ public enum StyleDictionarySize {
     public static let display2RegularLineHeight = "40"
     public static let display2RegularParagraphIndent = "0"
     public static let display2RegularParagraphSpacing = "0"
-    public static let displayRegularFontSize = "44"
-    public static let displayRegularFontWeight = "400"
-    public static let displayRegularLetterSpacing = "0"
-    public static let displayRegularLineHeight = "47.96"
-    public static let displayRegularParagraphIndent = "0"
-    public static let displayRegularParagraphSpacing = "0"
     public static let heading2FontSize = "22"
     public static let heading2FontWeight = "700"
     public static let heading2LetterSpacing = "0"
@@ -130,6 +130,13 @@ public enum StyleDictionarySize {
     public static let headingXxsLineHeight = "16"
     public static let headingXxsParagraphIndent = "0"
     public static let headingXxsParagraphSpacing = "0"
+    public static let iconLarge = 32 /* Option for icon size */
+    public static let iconRegular = 24 /* Option for icon size */
+    public static let iconSmall = 20 /* Option for icon size */
+    public static let iconXlarge = 40 /* Option for icon size */
+    public static let iconXsmall = 16 /* Option for icon size */
+    public static let iconXxlarge = 52 /* Option for icon size */
+    public static let iconXxsmall = 12 /* Option for icon size */
     public static let shadowCardCardHoverOffsetX = 0
     public static let shadowCardCardHoverOffsetY = 4
     public static let shadowCardCardHoverRadius = 16

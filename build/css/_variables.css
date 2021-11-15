@@ -1,12 +1,19 @@
 :root {
+  --sizes-icon-xxlarge: 52px; /* Option for icon size */
+  --sizes-icon-xlarge: 40px; /* Option for icon size */
+  --sizes-icon-large: 32px; /* Option for icon size */
+  --sizes-icon-regular: 24px; /* Option for icon size */
+  --sizes-icon-small: 20px; /* Option for icon size */
+  --sizes-icon-xsmall: 16px; /* Option for icon size */
+  --sizes-icon-xxsmall: 12px; /* Option for icon size */
   --color-text: #414b50;
   --color-depth: rgba(22, 23, 24, 0.16);
-  --color-brand-primary: #0050a9;
+  --color-brand-primary: #0050a9; /* swatch-blue */
   --color-brand-secondary: #008cff;
   --color-brand-tertiary: #002f55;
   --color-input-bg: #ffffff;
   --color-input-bg-disabled: #f2f2f2;
-  --color-input-border-default: #414b50;
+  --color-input-border-default: #b7babd;
   --color-input-border-active: #0050a9;
   --color-input-border-disabled: #dde0e2;
   --color-background-light-primary: #ffffff;
@@ -81,6 +88,18 @@
   --font-display-1-bold-paragraph-indent: 0;
   --font-display-1-bold-paragraph-spacing: 0;
   --font-display-1-bold-text-case: none;
+  --font-display-1-regular-font-size: 44px;
+  --font-display-1-regular-text-decoration: none;
+  --font-display-1-regular-font-family: Helvetica Neue;
+  --font-display-1-regular-font-weight: 400;
+  --font-display-1-regular-font-style: normal;
+  --font-display-1-regular-font-stretch: normal;
+  --font-display-1-regular-font-style-old: Regular;
+  --font-display-1-regular-letter-spacing: 0;
+  --font-display-1-regular-line-height: 47.96px;
+  --font-display-1-regular-paragraph-indent: 0;
+  --font-display-1-regular-paragraph-spacing: 0;
+  --font-display-1-regular-text-case: none;
   --font-display-2-bold-font-size: 36px;
   --font-display-2-bold-text-decoration: none;
   --font-display-2-bold-font-family: Helvetica Neue;
@@ -105,18 +124,6 @@
   --font-display-2-regular-paragraph-indent: 0;
   --font-display-2-regular-paragraph-spacing: 0;
   --font-display-2-regular-text-case: none;
-  --font-display-regular-font-size: 44px;
-  --font-display-regular-text-decoration: none;
-  --font-display-regular-font-family: Helvetica Neue;
-  --font-display-regular-font-weight: 400;
-  --font-display-regular-font-style: normal;
-  --font-display-regular-font-stretch: normal;
-  --font-display-regular-font-style-old: Regular;
-  --font-display-regular-letter-spacing: 0;
-  --font-display-regular-line-height: 47.96px;
-  --font-display-regular-paragraph-indent: 0;
-  --font-display-regular-paragraph-spacing: 0;
-  --font-display-regular-text-case: none;
   --font-heading-2-font-size: 22px;
   --font-heading-2-text-decoration: none;
   --font-heading-2-font-family: Helvetica Neue;

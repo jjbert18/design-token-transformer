@@ -4,18 +4,31 @@
 //
 
 // Do not edit directly
-// Generated on Sat, 13 Nov 2021 16:01:33 GMT
+// Generated on Mon, 15 Nov 2021 22:17:06 GMT
 
 
 #import "StyleDictionarySize.h"
 
 
+float const SizesIconXxlarge = 52;
+float const SizesIconXlarge = 40;
+float const SizesIconLarge = 32;
+float const SizesIconRegular = 24;
+float const SizesIconSmall = 20;
+float const SizesIconXsmall = 16;
+float const SizesIconXxsmall = 12;
 float const FontDisplay1BoldFontSize = @"44";
 float const FontDisplay1BoldFontWeight = @"700";
 float const FontDisplay1BoldLetterSpacing = @"0";
 float const FontDisplay1BoldLineHeight = @"47.96";
 float const FontDisplay1BoldParagraphIndent = @"0";
 float const FontDisplay1BoldParagraphSpacing = @"0";
+float const FontDisplay1RegularFontSize = @"44";
+float const FontDisplay1RegularFontWeight = @"400";
+float const FontDisplay1RegularLetterSpacing = @"0";
+float const FontDisplay1RegularLineHeight = @"47.96";
+float const FontDisplay1RegularParagraphIndent = @"0";
+float const FontDisplay1RegularParagraphSpacing = @"0";
 float const FontDisplay2BoldFontSize = @"36";
 float const FontDisplay2BoldFontWeight = @"700";
 float const FontDisplay2BoldLetterSpacing = @"0";
@@ -28,12 +41,6 @@ float const FontDisplay2RegularLetterSpacing = @"0";
 float const FontDisplay2RegularLineHeight = @"40";
 float const FontDisplay2RegularParagraphIndent = @"0";
 float const FontDisplay2RegularParagraphSpacing = @"0";
-float const FontDisplayRegularFontSize = @"44";
-float const FontDisplayRegularFontWeight = @"400";
-float const FontDisplayRegularLetterSpacing = @"0";
-float const FontDisplayRegularLineHeight = @"47.96";
-float const FontDisplayRegularParagraphIndent = @"0";
-float const FontDisplayRegularParagraphSpacing = @"0";
 float const FontHeading2FontSize = @"22";
 float const FontHeading2FontWeight = @"700";
 float const FontHeading2LetterSpacing = @"0";

@@ -3,18 +3,31 @@
 //
 
 // Do not edit directly
-// Generated on Sat, 13 Nov 2021 16:01:33 GMT
+// Generated on Mon, 15 Nov 2021 22:17:06 GMT
 
 
 #import <Foundation/Foundation.h>
 
 
+extern float const SizesIconXxlarge;
+extern float const SizesIconXlarge;
+extern float const SizesIconLarge;
+extern float const SizesIconRegular;
+extern float const SizesIconSmall;
+extern float const SizesIconXsmall;
+extern float const SizesIconXxsmall;
 extern float const FontDisplay1BoldFontSize;
 extern float const FontDisplay1BoldFontWeight;
 extern float const FontDisplay1BoldLetterSpacing;
 extern float const FontDisplay1BoldLineHeight;
 extern float const FontDisplay1BoldParagraphIndent;
 extern float const FontDisplay1BoldParagraphSpacing;
+extern float const FontDisplay1RegularFontSize;
+extern float const FontDisplay1RegularFontWeight;
+extern float const FontDisplay1RegularLetterSpacing;
+extern float const FontDisplay1RegularLineHeight;
+extern float const FontDisplay1RegularParagraphIndent;
+extern float const FontDisplay1RegularParagraphSpacing;
 extern float const FontDisplay2BoldFontSize;
 extern float const FontDisplay2BoldFontWeight;
 extern float const FontDisplay2BoldLetterSpacing;
@@ -27,12 +40,6 @@ extern float const FontDisplay2RegularLetterSpacing;
 extern float const FontDisplay2RegularLineHeight;
 extern float const FontDisplay2RegularParagraphIndent;
 extern float const FontDisplay2RegularParagraphSpacing;
-extern float const FontDisplayRegularFontSize;
-extern float const FontDisplayRegularFontWeight;
-extern float const FontDisplayRegularLetterSpacing;
-extern float const FontDisplayRegularLineHeight;
-extern float const FontDisplayRegularParagraphIndent;
-extern float const FontDisplayRegularParagraphSpacing;
 extern float const FontHeading2FontSize;
 extern float const FontHeading2FontWeight;
 extern float const FontHeading2LetterSpacing;
