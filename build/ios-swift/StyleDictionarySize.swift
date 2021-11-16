@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 15 Nov 2021 22:17:06 GMT
+// Generated on Tue, 16 Nov 2021 19:38:38 GMT
 
 
 import UIKit
@@ -58,6 +58,13 @@ public enum StyleDictionarySize {
     public static let display2RegularLineHeight = "40"
     public static let display2RegularParagraphIndent = "0"
     public static let display2RegularParagraphSpacing = "0"
+    public static let gapA = 4 /* Option for gap size */
+    public static let gapB = 8 /* Option for gap size */
+    public static let gapC = 16 /* Option for gap size */
+    public static let gapD = 24 /* Option for gap size */
+    public static let gapE = 32 /* Option for gap size */
+    public static let gapF = 64 /* Option for gap size */
+    public static let gapG = 96 /* Option for gap size */
     public static let heading2FontSize = "22"
     public static let heading2FontWeight = "700"
     public static let heading2LetterSpacing = "0"
@@ -137,6 +144,9 @@ public enum StyleDictionarySize {
     public static let iconXsmall = 16 /* Option for icon size */
     public static let iconXxlarge = 52 /* Option for icon size */
     public static let iconXxsmall = 12 /* Option for icon size */
+    public static let l = 1440
+    public static let m = 1024
+    public static let s = 768
     public static let shadowCardCardHoverOffsetX = 0
     public static let shadowCardCardHoverOffsetY = 4
     public static let shadowCardCardHoverRadius = 16
@@ -165,4 +175,7 @@ public enum StyleDictionarySize {
     public static let shadowGeneralTwoOffsetY = 4
     public static let shadowGeneralTwoRadius = 12
     public static let shadowGeneralTwoSpread = 0
+    public static let verticalRhythmLarge = 72 /* Option for vertical rhythm space */
+    public static let verticalRhythmSmall = 40 /* Option for vertical rhythm space */
+    public static let xl = 1920
 }

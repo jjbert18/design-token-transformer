@@ -3,12 +3,21 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 15 Nov 2021 22:17:06 GMT
+// Generated on Tue, 16 Nov 2021 19:38:38 GMT
 
 
 #import <Foundation/Foundation.h>
 
 
+extern float const SizesVerticalRhythmLarge;
+extern float const SizesVerticalRhythmSmall;
+extern float const SizesGapG;
+extern float const SizesGapF;
+extern float const SizesGapE;
+extern float const SizesGapD;
+extern float const SizesGapC;
+extern float const SizesGapB;
+extern float const SizesGapA;
 extern float const SizesIconXxlarge;
 extern float const SizesIconXlarge;
 extern float const SizesIconLarge;
@@ -16,6 +25,10 @@ extern float const SizesIconRegular;
 extern float const SizesIconSmall;
 extern float const SizesIconXsmall;
 extern float const SizesIconXxsmall;
+extern float const BreakpointsS;
+extern float const BreakpointsM;
+extern float const BreakpointsL;
+extern float const BreakpointsXl;
 extern float const FontDisplay1BoldFontSize;
 extern float const FontDisplay1BoldFontWeight;
 extern float const FontDisplay1BoldLetterSpacing;

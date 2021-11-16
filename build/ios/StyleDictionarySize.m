@@ -4,12 +4,21 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 15 Nov 2021 22:17:06 GMT
+// Generated on Tue, 16 Nov 2021 19:38:38 GMT
 
 
 #import "StyleDictionarySize.h"
 
 
+float const SizesVerticalRhythmLarge = 72;
+float const SizesVerticalRhythmSmall = 40;
+float const SizesGapG = 96;
+float const SizesGapF = 64;
+float const SizesGapE = 32;
+float const SizesGapD = 24;
+float const SizesGapC = 16;
+float const SizesGapB = 8;
+float const SizesGapA = 4;
 float const SizesIconXxlarge = 52;
 float const SizesIconXlarge = 40;
 float const SizesIconLarge = 32;
@@ -17,6 +26,10 @@ float const SizesIconRegular = 24;
 float const SizesIconSmall = 20;
 float const SizesIconXsmall = 16;
 float const SizesIconXxsmall = 12;
+float const BreakpointsS = 768;
+float const BreakpointsM = 1024;
+float const BreakpointsL = 1440;
+float const BreakpointsXl = 1920;
 float const FontDisplay1BoldFontSize = @"44";
 float const FontDisplay1BoldFontWeight = @"700";
 float const FontDisplay1BoldLetterSpacing = @"0";

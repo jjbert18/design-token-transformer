@@ -4,12 +4,16 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 15 Nov 2021 22:17:06 GMT
+// Generated on Tue, 16 Nov 2021 19:38:38 GMT
 
 
 import UIKit
 
 public class StyleDictionary {
+    public static let breakpointsL = 1440
+    public static let breakpointsM = 1024
+    public static let breakpointsS = 768
+    public static let breakpointsXl = 1920
     public static let colorBackgroundDarkPrimary = UIColor(red: 0.000, green: 0.314, blue: 0.663, alpha: 1)
     public static let colorBackgroundDarkSecondary = UIColor(red: 0.000, green: 0.184, blue: 0.333, alpha: 1)
     public static let colorBackgroundDarkTertiary = UIColor(red: 0.000, green: 0.549, blue: 1.000, alpha: 1)
@@ -362,6 +366,13 @@ public class StyleDictionary {
     public static let fontHeadingXxsParagraphSpacing = "0"
     public static let fontHeadingXxsTextCase = "none"
     public static let fontHeadingXxsTextDecoration = "none"
+    public static let sizesGapA = 4 /* Option for gap size */
+    public static let sizesGapB = 8 /* Option for gap size */
+    public static let sizesGapC = 16 /* Option for gap size */
+    public static let sizesGapD = 24 /* Option for gap size */
+    public static let sizesGapE = 32 /* Option for gap size */
+    public static let sizesGapF = 64 /* Option for gap size */
+    public static let sizesGapG = 96 /* Option for gap size */
     public static let sizesIconLarge = 32 /* Option for icon size */
     public static let sizesIconRegular = 24 /* Option for icon size */
     public static let sizesIconSmall = 20 /* Option for icon size */
@@ -369,4 +380,6 @@ public class StyleDictionary {
     public static let sizesIconXsmall = 16 /* Option for icon size */
     public static let sizesIconXxlarge = 52 /* Option for icon size */
     public static let sizesIconXxsmall = 12 /* Option for icon size */
+    public static let sizesVerticalRhythmLarge = 72 /* Option for vertical rhythm space */
+    public static let sizesVerticalRhythmSmall = 40 /* Option for vertical rhythm space */
 }

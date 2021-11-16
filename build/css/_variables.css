@@ -1,4 +1,13 @@
 :root {
+  --sizes-vertical-rhythm-large: 72px; /* Option for vertical rhythm space */
+  --sizes-vertical-rhythm-small: 40px; /* Option for vertical rhythm space */
+  --sizes-gap-g: 96px; /* Option for gap size */
+  --sizes-gap-f: 64px; /* Option for gap size */
+  --sizes-gap-e: 32px; /* Option for gap size */
+  --sizes-gap-d: 24px; /* Option for gap size */
+  --sizes-gap-c: 16px; /* Option for gap size */
+  --sizes-gap-b: 8px; /* Option for gap size */
+  --sizes-gap-a: 4px; /* Option for gap size */
   --sizes-icon-xxlarge: 52px; /* Option for icon size */
   --sizes-icon-xlarge: 40px; /* Option for icon size */
   --sizes-icon-large: 32px; /* Option for icon size */
@@ -6,6 +15,10 @@
   --sizes-icon-small: 20px; /* Option for icon size */
   --sizes-icon-xsmall: 16px; /* Option for icon size */
   --sizes-icon-xxsmall: 12px; /* Option for icon size */
+  --breakpoints-s: 768px;
+  --breakpoints-m: 1024px;
+  --breakpoints-l: 1440px;
+  --breakpoints-xl: 1920px;
   --color-text: #414b50;
   --color-depth: rgba(22, 23, 24, 0.16);
   --color-brand-primary: #0050a9; /* swatch-blue */
