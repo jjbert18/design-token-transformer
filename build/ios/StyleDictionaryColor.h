@@ -4,17 +4,25 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 16 Nov 2021 21:26:47 GMT
+// Generated on Wed, 17 Nov 2021 16:29:10 GMT
 
 
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, StyleDictionaryColorName) {
-ColorText,
-ColorDepth,
 ColorBrandPrimary,
 ColorBrandSecondary,
 ColorBrandTertiary,
+ColorTextText,
+ColorTextSubtle,
+ColorTextReverse,
+ColorTextSuper,
+ColorTextLink,
+ColorTextLinkHover,
+ColorTextLinkReverse,
+ColorTextLinkReverseHover,
+ColorTextLinkDisabled,
+ColorTextLinkDisabledSubtle,
 ColorInputBg,
 ColorInputBgDisabled,
 ColorInputBorderDefault,
@@ -32,6 +40,13 @@ ColorBorderFocus,
 ColorPillPrimary,
 ColorPillSecondary,
 ColorPillTertiary,
+ColorUtilityDepth,
+ColorUtilityPositive,
+ColorUtilityPositiveSubtle,
+ColorUtilityAttention,
+ColorUtilityAttentionSubtle,
+ColorUtilityNegative,
+ColorUtilityNegativeSubtle,
 ColorButtonPrimaryBg,
 ColorButtonPrimaryBgHover,
 ColorButtonPrimaryBgActive,
@@ -74,12 +89,6 @@ ColorButtonAttentionBgActive,
 ColorButtonAttentionText,
 ColorButtonAttentionBgDisabled,
 ColorButtonAttentionTextDisabled,
-ColorUtilityPositive,
-ColorUtilityPositiveSubtle,
-ColorUtilityAttention,
-ColorUtilityAttentionSubtle,
-ColorUtilityNegative,
-ColorUtilityNegativeSubtle,
 EffectShadowGeneralOneColor,
 EffectShadowGeneralTwoColor,
 EffectShadowGeneralThreeColor,

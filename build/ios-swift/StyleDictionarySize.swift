@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 16 Nov 2021 21:26:47 GMT
+// Generated on Wed, 17 Nov 2021 16:29:10 GMT
 
 
 import UIKit
@@ -65,6 +65,9 @@ public enum StyleDictionarySize {
     public static let gapE = 32 /* Option for gap size */
     public static let gapF = 64 /* Option for gap size */
     public static let gapG = 96 /* Option for gap size */
+    public static let glyphShortWidth = 120 /* Option for vertical rhythm space */
+    public static let glyphThickness = 4 /* Option for vertical rhythm space */
+    public static let glyphWideWidth = 240
     public static let heading2FontSize = "22"
     public static let heading2FontWeight = "700"
     public static let heading2LetterSpacing = "0"

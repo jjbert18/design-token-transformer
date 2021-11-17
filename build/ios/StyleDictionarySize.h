@@ -3,12 +3,15 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 16 Nov 2021 21:26:47 GMT
+// Generated on Wed, 17 Nov 2021 16:29:10 GMT
 
 
 #import <Foundation/Foundation.h>
 
 
+extern float const SizesGlyphWideWidth;
+extern float const SizesGlyphShortWidth;
+extern float const SizesGlyphThickness;
 extern float const SizesVerticalRhythmLarge;
 extern float const SizesVerticalRhythmSmall;
 extern float const SizesGapG;

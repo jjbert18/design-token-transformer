@@ -1,4 +1,7 @@
 :root {
+  --sizes-glyph-wide-width: 240px;
+  --sizes-glyph-short-width: 120px; /* Option for vertical rhythm space */
+  --sizes-glyph-thickness: 4px; /* Option for vertical rhythm space */
   --sizes-vertical-rhythm-large: 72px; /* Option for vertical rhythm space */
   --sizes-vertical-rhythm-small: 40px; /* Option for vertical rhythm space */
   --sizes-gap-g: 96px; /* Option for gap size */
@@ -19,76 +22,85 @@
   --breakpoints-m: 1024px;
   --breakpoints-l: 1440px;
   --breakpoints-xl: 1920px;
-  --color-text: #414b50;
-  --color-depth: rgba(22, 23, 24, 0.16);
-  --color-brand-primary: #0050a9; /* swatch-blue */
-  --color-brand-secondary: #008cff;
-  --color-brand-tertiary: #002f55;
-  --color-input-bg: #ffffff;
-  --color-input-bg-disabled: #f2f2f2;
-  --color-input-border-default: #b7babd;
-  --color-input-border-active: #0050a9;
-  --color-input-border-disabled: #dde0e2;
-  --color-background-light-primary: #ffffff;
-  --color-background-light-secondary: #f9f9f9;
-  --color-background-light-tertiary: #f2f2f2;
-  --color-background-dark-primary: #0050a9;
-  --color-background-dark-secondary: #002f55;
-  --color-background-dark-tertiary: #008cff;
-  --color-background-glyph: #f99222;
-  --color-border-utility: #dde0e2;
+  --color-brand-primary: #0050a9; /* swatch/blue */
+  --color-brand-secondary: #008cff; /* swatch/blue-highlight */
+  --color-brand-tertiary: #002f55; /* swatch/blue-lowlight */
+  --color-text-text: #414b50; /* swatch/gray-69 */
+  --color-text-subtle: #72777e; /* swatch/gray-38 */
+  --color-text-reverse: #ffffff; /* swatch/white */
+  --color-text-super: #f99222; /* swatch/orange */
+  --color-text-link: #0050a9; /* swatch/blue */
+  --color-text-link-hover: #008cff; /* swatch/blue-highlight */
+  --color-text-link-reverse: #ffffff; /* swatch/white */
+  --color-text-link-reverse-hover: #ffffff; /* swatch/white */
+  --color-text-link-disabled: #7f878a;
+  --color-text-link-disabled-subtle: #dde0e2; /* swatch/gray-11 */
+  --color-input-bg: #ffffff; /* swatch/white */
+  --color-input-bg-disabled: #f2f2f2; /* swatch/gray-5 */
+  --color-input-border-default: #b7babd; /* swatch/gray-26 */
+  --color-input-border-active: #0050a9; /* swatch/blue */
+  --color-input-border-disabled: #dde0e2; /* swatch/gray-11 */
+  --color-background-light-primary: #ffffff; /* swatch/white */
+  --color-background-light-secondary: #f9f9f9; /* swatch/gray-2 */
+  --color-background-light-tertiary: #f2f2f2; /* swatch/gray-5 */
+  --color-background-dark-primary: #0050a9; /* swatch/blue */
+  --color-background-dark-secondary: #002f55; /* swatch/blue-lowlight */
+  --color-background-dark-tertiary: #008cff; /* swatch/blue-highlight */
+  --color-background-glyph: #f99222; /* swatch/orange */
+  --color-border-utility: #dde0e2; /* swatch/gray-11 */
   --color-border-focus: rgba(0, 140, 255, 0.5);
-  --color-pill-primary: #f99222;
-  --color-pill-secondary: #008cff;
+  --color-pill-primary: #f99222; /* swatch/orange */
+  --color-pill-secondary: #008cff; /* swatch/blue-highlight */
   --color-pill-tertiary: #333333;
-  --color-button-primary-bg: #0050a9;
-  --color-button-primary-bg-hover: #003e7b;
-  --color-button-primary-bg-active: #002f55;
-  --color-button-primary-text: #ffffff;
-  --color-button-primary-outline-hover: #008cff;
-  --color-button-primary-bg-disabled: #dde0e2;
-  --color-button-primary-text-disabled: #7f878a;
-  --color-button-primary-reverse-bg: #ffffff;
-  --color-button-primary-reverse-bg-hover: #f9f9f9;
-  --color-button-primary-reverse-bg-active: #f2f2f2;
-  --color-button-primary-reverse-text: #0050a9;
-  --color-button-primary-reverse-outline-hover: #008cff;
-  --color-button-primary-reverse-bg-disabled: #ffffff;
-  --color-button-primary-reverse-text-disabled: #7f878a;
-  --color-button-primary-alt-bg: #008cff;
-  --color-button-primary-alt-bg-hover: #006bd0;
-  --color-button-primary-alt-bg-active: #0050a9;
-  --color-button-primary-alt-text: #ffffff;
-  --color-button-primary-alt-outline-hover: #002f55;
-  --color-button-primary-alt-bg-disabled: #dde0e2;
-  --color-button-primary-alt-text-disabled: #7f878a;
-  --color-button-secondary-bg: #f9f9f9;
-  --color-button-secondary-bg-hover: #f2f2f2;
-  --color-button-secondary-bg-active: #dde0e2;
-  --color-button-secondary-text: #414b50;
-  --color-button-secondary-border: #dde0e2;
-  --color-button-secondary-bg-disabled: #ffffff;
-  --color-button-secondary-text-disabled: #7f878a;
-  --color-button-secondary-alt-bg: #f9f9f9;
-  --color-button-secondary-alt-bg-hover: #0050a9;
-  --color-button-secondary-alt-bg-active: #002f55;
-  --color-button-secondary-alt-text: #414b50;
-  --color-button-secondary-alt-text-hover: #ffffff;
-  --color-button-secondary-alt-border: #dde0e2;
-  --color-button-secondary-alt-bg-disabled: #ffffff;
-  --color-button-secondary-alt-text-disabled: #7f878a;
-  --color-button-attention-bg: #f99222;
-  --color-button-attention-bg-hover: #d16019;
-  --color-button-attention-bg-active: #b03712;
-  --color-button-attention-text: #ffffff;
-  --color-button-attention-bg-disabled: #dde0e2;
-  --color-button-attention-text-disabled: #7f878a;
-  --color-utility-positive: #48bd00;
-  --color-utility-positive-subtle: #f9f9f9;
-  --color-utility-attention: #f99222;
-  --color-utility-attention-subtle: #fff2ec;
-  --color-utility-negative: #e10000;
-  --color-utility-negative-subtle: #ffecec;
+  --color-utility-depth: rgba(22, 23, 24, 0.16);
+  --color-utility-positive: #48bd00; /* swatch/green */
+  --color-utility-positive-subtle: #f9f9f9; /* swatch/gray-2 */
+  --color-utility-attention: #f99222; /* swatch/orange */
+  --color-utility-attention-subtle: #fff2ec; /* swatch/orange-subtle */
+  --color-utility-negative: #e10000; /* swatch/red */
+  --color-utility-negative-subtle: #ffecec; /* swatch/red-subtle */
+  --color-button-primary-bg: #0050a9; /* swatch/blue */
+  --color-button-primary-bg-hover: #003e7b; /* oddity */
+  --color-button-primary-bg-active: #002f55; /* swatch/blue-lowlight */
+  --color-button-primary-text: #ffffff; /* swatch/white */
+  --color-button-primary-outline-hover: #008cff; /* swatch/blue-highlight */
+  --color-button-primary-bg-disabled: #dde0e2; /* swatch/gray-11 */
+  --color-button-primary-text-disabled: #7f878a; /* oddity */
+  --color-button-primary-reverse-bg: #ffffff; /* swatch/white */
+  --color-button-primary-reverse-bg-hover: #f9f9f9; /* swatch/gray-2 */
+  --color-button-primary-reverse-bg-active: #f2f2f2; /* swatch/gray-5 */
+  --color-button-primary-reverse-text: #0050a9; /* swatch/blue */
+  --color-button-primary-reverse-outline-hover: #008cff; /* swatch/blue-highlight */
+  --color-button-primary-reverse-bg-disabled: #ffffff; /* swatch/white */
+  --color-button-primary-reverse-text-disabled: #7f878a; /* oddity */
+  --color-button-primary-alt-bg: #008cff; /* swatch/blue-highlight */
+  --color-button-primary-alt-bg-hover: #006bd0; /* oddity */
+  --color-button-primary-alt-bg-active: #0050a9; /* swatch/blue */
+  --color-button-primary-alt-text: #ffffff; /* swatch/white */
+  --color-button-primary-alt-outline-hover: #002f55; /* swatch/blue-lowlight */
+  --color-button-primary-alt-bg-disabled: #dde0e2; /* swatch/gray-11 */
+  --color-button-primary-alt-text-disabled: #7f878a; /* oddity */
+  --color-button-secondary-bg: #f9f9f9; /* swatch/gray-2 */
+  --color-button-secondary-bg-hover: #f2f2f2; /* swatch/gray-5 */
+  --color-button-secondary-bg-active: #dde0e2; /* swatch/gray-11 */
+  --color-button-secondary-text: #414b50; /* swatch/gray-69 */
+  --color-button-secondary-border: #dde0e2; /* swatch/gray-11 */
+  --color-button-secondary-bg-disabled: #ffffff; /* swatch/white */
+  --color-button-secondary-text-disabled: #7f878a; /* oddity */
+  --color-button-secondary-alt-bg: #f9f9f9; /* swatch/gray-2 */
+  --color-button-secondary-alt-bg-hover: #0050a9; /* swatch/blue */
+  --color-button-secondary-alt-bg-active: #002f55; /* swatch/blue-lowlight */
+  --color-button-secondary-alt-text: #414b50; /* swatch/gray-69 */
+  --color-button-secondary-alt-text-hover: #ffffff; /* swatch/white */
+  --color-button-secondary-alt-border: #dde0e2; /* swatch/gray-11 */
+  --color-button-secondary-alt-bg-disabled: #ffffff; /* swatch/white */
+  --color-button-secondary-alt-text-disabled: #7f878a; /* oddity */
+  --color-button-attention-bg: #f99222; /* swatch/orange */
+  --color-button-attention-bg-hover: #d16019; /* oddity */
+  --color-button-attention-bg-active: #b03712; /* swatch/orange-lowlight */
+  --color-button-attention-text: #ffffff; /* swatch/white */
+  --color-button-attention-bg-disabled: #dde0e2; /* swatch/gray-11 */
+  --color-button-attention-text-disabled: #7f878a; /* oddity */
   --font-display-1-bold-font-size: 44px;
   --font-display-1-bold-text-decoration: none;
   --font-display-1-bold-font-family: Helvetica Neue;

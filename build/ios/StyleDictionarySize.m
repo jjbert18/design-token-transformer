@@ -4,12 +4,15 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 16 Nov 2021 21:26:47 GMT
+// Generated on Wed, 17 Nov 2021 16:29:10 GMT
 
 
 #import "StyleDictionarySize.h"
 
 
+float const SizesGlyphWideWidth = 240;
+float const SizesGlyphShortWidth = 120;
+float const SizesGlyphThickness = 4;
 float const SizesVerticalRhythmLarge = 72;
 float const SizesVerticalRhythmSmall = 40;
 float const SizesGapG = 96;
