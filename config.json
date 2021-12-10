@@ -1,5 +1,5 @@
 {
-  "source": ["tokens/*.json"],
+  "source": ["data/*.json"],
   "platforms": {
     "scss": {
       "transformGroup": "custom/scss",
@@ -7,14 +7,6 @@
       "files": [{
         "destination": "_variables.scss",
         "format": "scss/variables"
-      }]
-    },
-    "less": {
-      "transformGroup": "custom/less",
-      "buildPath": "build/less/",
-      "files": [{
-        "destination": "_variables.less",
-        "format": "less/variables"
       }]
     },
     "css": {
