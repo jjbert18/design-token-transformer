@@ -1,8 +1,8 @@
 {
-  "source": ["data/*.json"],
+  "source": ["tokens/input.json"],
   "platforms": {
     "scss": {
-      "transformGroup": "custom/scss",
+      "transformGroup": "scss",
       "buildPath": "build/scss/",
       "files": [{
         "destination": "_variables.scss",
@@ -10,7 +10,7 @@
       }]
     },
     "css": {
-      "transformGroup": "custom/css",
+      "transformGroup": "css",
       "buildPath": "build/css/",
       "files": [{
         "destination": "_variables.css",
@@ -19,6 +19,16 @@
           "showFileHeader": false
         }
       }]
+    },
+    "js": {
+      "transformGroup": "js",
+      "buildPath": "build/js/",
+      "files": [
+        {
+          "destination": "_variables.js",
+          "format": "javascript/es6"
+        }
+      ]
     },
     "json-flat": {
       "transformGroup": "js",
