@@ -1,386 +1,340 @@
 :root {
-  --sizes-glyph-wide-width: 240px;
-  --sizes-glyph-short-width: 120px; /* Option for vertical rhythm space */
-  --sizes-glyph-thickness: 4px; /* Option for vertical rhythm space */
-  --sizes-vertical-rhythm-large: 72px; /* Option for vertical rhythm space */
-  --sizes-vertical-rhythm-small: 40px; /* Option for vertical rhythm space */
-  --sizes-gap-g: 96px; /* Option for gap size */
-  --sizes-gap-f: 64px; /* Option for gap size */
-  --sizes-gap-e: 32px; /* Option for gap size */
-  --sizes-gap-d: 24px; /* Option for gap size */
-  --sizes-gap-c: 16px; /* Option for gap size */
-  --sizes-gap-b: 8px; /* Option for gap size */
-  --sizes-gap-a: 4px; /* Option for gap size */
-  --sizes-icon-xxlarge: 52px; /* Option for icon size */
-  --sizes-icon-xlarge: 40px; /* Option for icon size */
-  --sizes-icon-large: 32px; /* Option for icon size */
-  --sizes-icon-regular: 24px; /* Option for icon size */
-  --sizes-icon-small: 20px; /* Option for icon size */
-  --sizes-icon-xsmall: 16px; /* Option for icon size */
-  --sizes-icon-xxsmall: 12px; /* Option for icon size */
-  --breakpoints-s: 768px;
-  --breakpoints-m: 1024px;
-  --breakpoints-l: 1440px;
-  --breakpoints-xl: 1920px;
-  --color-brand-primary: #0050a9; /* swatch/blue */
-  --color-brand-secondary: #008cff; /* swatch/blue-highlight */
-  --color-brand-tertiary: #002f55; /* swatch/blue-lowlight */
-  --color-text-text: #414b50; /* swatch/gray-69 */
-  --color-text-subtle: #72777e; /* swatch/gray-38 */
-  --color-text-reverse: #ffffff; /* swatch/white */
-  --color-text-super: #f99222; /* swatch/orange */
-  --color-text-link: #0050a9; /* swatch/blue */
-  --color-text-link-hover: #008cff; /* swatch/blue-highlight */
-  --color-text-link-reverse: #ffffff; /* swatch/white */
-  --color-text-link-reverse-hover: #ffffff; /* swatch/white */
-  --color-text-link-disabled: #7f878a;
-  --color-text-link-disabled-subtle: #dde0e2; /* swatch/gray-11 */
-  --color-input-bg: #ffffff; /* swatch/white */
-  --color-input-bg-disabled: #f2f2f2; /* swatch/gray-5 */
-  --color-input-border-default: #b7babd; /* swatch/gray-26 */
-  --color-input-border-active: #0050a9; /* swatch/blue */
-  --color-input-border-disabled: #dde0e2; /* swatch/gray-11 */
-  --color-background-light-primary: #ffffff; /* swatch/white */
-  --color-background-light-secondary: #f9f9f9; /* swatch/gray-2 */
-  --color-background-light-tertiary: #f2f2f2; /* swatch/gray-5 */
-  --color-background-dark-primary: #0050a9; /* swatch/blue */
-  --color-background-dark-secondary: #002f55; /* swatch/blue-lowlight */
-  --color-background-dark-tertiary: #008cff; /* swatch/blue-highlight */
-  --color-background-glyph: #f99222; /* swatch/orange */
-  --color-border-utility: #dde0e2; /* swatch/gray-11 */
-  --color-border-focus: rgba(0, 140, 255, 0.5);
-  --color-pill-primary: #f99222; /* swatch/orange */
-  --color-pill-secondary: #008cff; /* swatch/blue-highlight */
-  --color-pill-tertiary: #333333;
-  --color-utility-depth: rgba(22, 23, 24, 0.16);
-  --color-utility-positive: #48bd00; /* swatch/green */
-  --color-utility-positive-subtle: #f9f9f9; /* swatch/gray-2 */
-  --color-utility-attention: #f99222; /* swatch/orange */
-  --color-utility-attention-subtle: #fff2ec; /* swatch/orange-subtle */
-  --color-utility-negative: #e10000; /* swatch/red */
-  --color-utility-negative-subtle: #ffecec; /* swatch/red-subtle */
-  --color-button-primary-bg: #0050a9; /* swatch/blue */
-  --color-button-primary-bg-hover: #003e7b; /* oddity */
-  --color-button-primary-bg-active: #002f55; /* swatch/blue-lowlight */
-  --color-button-primary-text: #ffffff; /* swatch/white */
-  --color-button-primary-outline-hover: #008cff; /* swatch/blue-highlight */
-  --color-button-primary-bg-disabled: #dde0e2; /* swatch/gray-11 */
-  --color-button-primary-text-disabled: #7f878a; /* oddity */
-  --color-button-primary-reverse-bg: #ffffff; /* swatch/white */
-  --color-button-primary-reverse-bg-hover: #f9f9f9; /* swatch/gray-2 */
-  --color-button-primary-reverse-bg-active: #f2f2f2; /* swatch/gray-5 */
-  --color-button-primary-reverse-text: #0050a9; /* swatch/blue */
-  --color-button-primary-reverse-outline-hover: #008cff; /* swatch/blue-highlight */
-  --color-button-primary-reverse-bg-disabled: #ffffff; /* swatch/white */
-  --color-button-primary-reverse-text-disabled: #7f878a; /* oddity */
-  --color-button-primary-alt-bg: #008cff; /* swatch/blue-highlight */
-  --color-button-primary-alt-bg-hover: #006bd0; /* oddity */
-  --color-button-primary-alt-bg-active: #0050a9; /* swatch/blue */
-  --color-button-primary-alt-text: #ffffff; /* swatch/white */
-  --color-button-primary-alt-outline-hover: #002f55; /* swatch/blue-lowlight */
-  --color-button-primary-alt-bg-disabled: #dde0e2; /* swatch/gray-11 */
-  --color-button-primary-alt-text-disabled: #7f878a; /* oddity */
-  --color-button-secondary-bg: #f9f9f9; /* swatch/gray-2 */
-  --color-button-secondary-bg-hover: #f2f2f2; /* swatch/gray-5 */
-  --color-button-secondary-bg-active: #dde0e2; /* swatch/gray-11 */
-  --color-button-secondary-text: #414b50; /* swatch/gray-69 */
-  --color-button-secondary-border: #dde0e2; /* swatch/gray-11 */
-  --color-button-secondary-bg-disabled: #ffffff; /* swatch/white */
-  --color-button-secondary-text-disabled: #7f878a; /* oddity */
-  --color-button-secondary-alt-bg: #f9f9f9; /* swatch/gray-2 */
-  --color-button-secondary-alt-bg-hover: #0050a9; /* swatch/blue */
-  --color-button-secondary-alt-bg-active: #002f55; /* swatch/blue-lowlight */
-  --color-button-secondary-alt-text: #414b50; /* swatch/gray-69 */
-  --color-button-secondary-alt-text-hover: #ffffff; /* swatch/white */
-  --color-button-secondary-alt-border: #dde0e2; /* swatch/gray-11 */
-  --color-button-secondary-alt-bg-disabled: #ffffff; /* swatch/white */
-  --color-button-secondary-alt-text-disabled: #7f878a; /* oddity */
-  --color-button-attention-bg: #f99222; /* swatch/orange */
-  --color-button-attention-bg-hover: #d16019; /* oddity */
-  --color-button-attention-bg-active: #b03712; /* swatch/orange-lowlight */
-  --color-button-attention-text: #ffffff; /* swatch/white */
-  --color-button-attention-bg-disabled: #dde0e2; /* swatch/gray-11 */
-  --color-button-attention-text-disabled: #7f878a; /* oddity */
-  --font-display-1-bold-font-size: 44px;
-  --font-display-1-bold-text-decoration: none;
-  --font-display-1-bold-font-family: Helvetica Neue;
-  --font-display-1-bold-font-weight: 700;
-  --font-display-1-bold-font-style: normal;
-  --font-display-1-bold-font-stretch: normal;
-  --font-display-1-bold-font-style-old: Bold;
-  --font-display-1-bold-letter-spacing: 0;
-  --font-display-1-bold-line-height: 47.96px;
-  --font-display-1-bold-paragraph-indent: 0;
-  --font-display-1-bold-paragraph-spacing: 0;
-  --font-display-1-bold-text-case: none;
-  --font-display-1-regular-font-size: 44px;
-  --font-display-1-regular-text-decoration: none;
-  --font-display-1-regular-font-family: Helvetica Neue;
-  --font-display-1-regular-font-weight: 400;
-  --font-display-1-regular-font-style: normal;
-  --font-display-1-regular-font-stretch: normal;
-  --font-display-1-regular-font-style-old: Regular;
-  --font-display-1-regular-letter-spacing: 0;
-  --font-display-1-regular-line-height: 47.96px;
-  --font-display-1-regular-paragraph-indent: 0;
-  --font-display-1-regular-paragraph-spacing: 0;
-  --font-display-1-regular-text-case: none;
-  --font-display-2-bold-font-size: 36px;
-  --font-display-2-bold-text-decoration: none;
-  --font-display-2-bold-font-family: Helvetica Neue;
-  --font-display-2-bold-font-weight: 700;
-  --font-display-2-bold-font-style: normal;
-  --font-display-2-bold-font-stretch: normal;
-  --font-display-2-bold-font-style-old: Bold;
-  --font-display-2-bold-letter-spacing: 0;
-  --font-display-2-bold-line-height: 40px;
-  --font-display-2-bold-paragraph-indent: 0;
-  --font-display-2-bold-paragraph-spacing: 0;
-  --font-display-2-bold-text-case: none;
-  --font-display-2-regular-font-size: 36px;
-  --font-display-2-regular-text-decoration: none;
-  --font-display-2-regular-font-family: Helvetica Neue;
-  --font-display-2-regular-font-weight: 400;
-  --font-display-2-regular-font-style: normal;
-  --font-display-2-regular-font-stretch: normal;
-  --font-display-2-regular-font-style-old: Regular;
-  --font-display-2-regular-letter-spacing: 0;
-  --font-display-2-regular-line-height: 40px;
-  --font-display-2-regular-paragraph-indent: 0;
-  --font-display-2-regular-paragraph-spacing: 0;
-  --font-display-2-regular-text-case: none;
-  --font-heading-2-font-size: 22px;
-  --font-heading-2-text-decoration: none;
-  --font-heading-2-font-family: Helvetica Neue;
-  --font-heading-2-font-weight: 700;
-  --font-heading-2-font-style: normal;
-  --font-heading-2-font-stretch: normal;
-  --font-heading-2-font-style-old: Bold;
-  --font-heading-2-letter-spacing: 0;
-  --font-heading-2-line-height: 24px;
-  --font-heading-2-paragraph-indent: 0;
-  --font-heading-2-paragraph-spacing: 0;
-  --font-heading-2-text-case: none;
-  --font-heading-3-font-size: 18px;
-  --font-heading-3-text-decoration: none;
-  --font-heading-3-font-family: Helvetica Neue;
-  --font-heading-3-font-weight: 700;
-  --font-heading-3-font-style: normal;
-  --font-heading-3-font-stretch: normal;
-  --font-heading-3-font-style-old: Bold;
-  --font-heading-3-letter-spacing: 0;
-  --font-heading-3-line-height: 24px;
-  --font-heading-3-paragraph-indent: 0;
-  --font-heading-3-paragraph-spacing: 0;
-  --font-heading-3-text-case: none;
-  --font-heading-4-font-size: 16px;
-  --font-heading-4-text-decoration: none;
-  --font-heading-4-font-family: Helvetica Neue;
-  --font-heading-4-font-weight: 700;
-  --font-heading-4-font-style: normal;
-  --font-heading-4-font-stretch: normal;
-  --font-heading-4-font-style-old: Bold;
-  --font-heading-4-letter-spacing: 0;
-  --font-heading-4-line-height: 20px;
-  --font-heading-4-paragraph-indent: 0;
-  --font-heading-4-paragraph-spacing: 0;
-  --font-heading-4-text-case: none;
-  --font-heading-5-font-size: 14px;
-  --font-heading-5-text-decoration: none;
-  --font-heading-5-font-family: Helvetica Neue;
-  --font-heading-5-font-weight: 700;
-  --font-heading-5-font-style: normal;
-  --font-heading-5-font-stretch: normal;
-  --font-heading-5-font-style-old: Bold;
-  --font-heading-5-letter-spacing: 0;
-  --font-heading-5-line-height: 20px;
-  --font-heading-5-paragraph-indent: 0;
-  --font-heading-5-paragraph-spacing: 0;
-  --font-heading-5-text-case: none;
-  --font-heading-6-font-size: 12px;
-  --font-heading-6-text-decoration: none;
-  --font-heading-6-font-family: Helvetica Neue;
-  --font-heading-6-font-weight: 700;
-  --font-heading-6-font-style: normal;
-  --font-heading-6-font-stretch: normal;
-  --font-heading-6-font-style-old: Bold;
-  --font-heading-6-letter-spacing: 0;
-  --font-heading-6-line-height: 16px;
-  --font-heading-6-paragraph-indent: 0;
-  --font-heading-6-paragraph-spacing: 0;
-  --font-heading-6-text-case: none;
-  --font-heading-h1-font-size: 28px;
-  --font-heading-h1-text-decoration: none;
-  --font-heading-h1-font-family: Helvetica Neue;
-  --font-heading-h1-font-weight: 700;
-  --font-heading-h1-font-style: normal;
-  --font-heading-h1-font-stretch: normal;
-  --font-heading-h1-font-style-old: Bold;
-  --font-heading-h1-letter-spacing: 0;
-  --font-heading-h1-line-height: 36px;
-  --font-heading-h1-paragraph-indent: 0;
-  --font-heading-h1-paragraph-spacing: 0;
-  --font-heading-h1-text-case: none;
-  --font-heading-5-underline-font-size: 14px;
-  --font-heading-5-underline-text-decoration: underline;
-  --font-heading-5-underline-font-family: Helvetica Neue;
-  --font-heading-5-underline-font-weight: 700;
-  --font-heading-5-underline-font-style: normal;
-  --font-heading-5-underline-font-stretch: normal;
-  --font-heading-5-underline-font-style-old: Bold;
-  --font-heading-5-underline-letter-spacing: 0;
-  --font-heading-5-underline-line-height: 20px;
-  --font-heading-5-underline-paragraph-indent: 0;
-  --font-heading-5-underline-paragraph-spacing: 0;
-  --font-heading-5-underline-text-case: none;
-  --font-heading-6-underline-font-size: 12px;
-  --font-heading-6-underline-text-decoration: underline;
-  --font-heading-6-underline-font-family: Helvetica Neue;
-  --font-heading-6-underline-font-weight: 700;
-  --font-heading-6-underline-font-style: normal;
-  --font-heading-6-underline-font-stretch: normal;
-  --font-heading-6-underline-font-style-old: Bold;
-  --font-heading-6-underline-letter-spacing: 0;
-  --font-heading-6-underline-line-height: 20px;
-  --font-heading-6-underline-paragraph-indent: 0;
-  --font-heading-6-underline-paragraph-spacing: 0;
-  --font-heading-6-underline-text-case: none;
-  --font-heading-h6-regular-font-size: 12px;
-  --font-heading-h6-regular-text-decoration: none;
-  --font-heading-h6-regular-font-family: Helvetica Neue;
-  --font-heading-h6-regular-font-weight: 400;
-  --font-heading-h6-regular-font-style: normal;
-  --font-heading-h6-regular-font-stretch: normal;
-  --font-heading-h6-regular-font-style-old: Regular;
-  --font-heading-h6-regular-letter-spacing: 0;
-  --font-heading-h6-regular-line-height: 16px;
-  --font-heading-h6-regular-paragraph-indent: 0;
-  --font-heading-h6-regular-paragraph-spacing: 0;
-  --font-heading-h6-regular-text-case: none;
-  --font-heading-xs-font-size: 10px;
-  --font-heading-xs-text-decoration: none;
-  --font-heading-xs-font-family: Helvetica Neue;
-  --font-heading-xs-font-weight: 700;
-  --font-heading-xs-font-style: normal;
-  --font-heading-xs-font-stretch: normal;
-  --font-heading-xs-font-style-old: Bold;
-  --font-heading-xs-letter-spacing: 0;
-  --font-heading-xs-line-height: 20px;
-  --font-heading-xs-paragraph-indent: 0;
-  --font-heading-xs-paragraph-spacing: 0;
-  --font-heading-xs-text-case: none;
-  --font-heading-xs-underline-font-size: 10px;
-  --font-heading-xs-underline-text-decoration: underline;
-  --font-heading-xs-underline-font-family: Helvetica Neue;
-  --font-heading-xs-underline-font-weight: 700;
-  --font-heading-xs-underline-font-style: normal;
-  --font-heading-xs-underline-font-stretch: normal;
-  --font-heading-xs-underline-font-style-old: Bold;
-  --font-heading-xs-underline-letter-spacing: 0;
-  --font-heading-xs-underline-line-height: 20px;
-  --font-heading-xs-underline-paragraph-indent: 0;
-  --font-heading-xs-underline-paragraph-spacing: 0;
-  --font-heading-xs-underline-text-case: none;
-  --font-heading-xxs-font-size: 8px;
-  --font-heading-xxs-text-decoration: none;
-  --font-heading-xxs-font-family: Helvetica Neue;
-  --font-heading-xxs-font-weight: 700;
-  --font-heading-xxs-font-style: normal;
-  --font-heading-xxs-font-stretch: normal;
-  --font-heading-xxs-font-style-old: Bold;
-  --font-heading-xxs-letter-spacing: 0;
-  --font-heading-xxs-line-height: 16px;
-  --font-heading-xxs-paragraph-indent: 0;
-  --font-heading-xxs-paragraph-spacing: 0;
-  --font-heading-xxs-text-case: none;
-  --font-body-regular-font-size: 14px;
-  --font-body-regular-text-decoration: none;
-  --font-body-regular-font-family: Helvetica Neue;
-  --font-body-regular-font-weight: 400;
-  --font-body-regular-font-style: normal;
-  --font-body-regular-font-stretch: normal;
-  --font-body-regular-font-style-old: Regular;
-  --font-body-regular-letter-spacing: 0;
-  --font-body-regular-line-height: 20px;
-  --font-body-regular-paragraph-indent: 0;
-  --font-body-regular-paragraph-spacing: 0;
-  --font-body-regular-text-case: none;
-  --font-body-regular-underline-font-size: 14px;
-  --font-body-regular-underline-text-decoration: underline;
-  --font-body-regular-underline-font-family: Helvetica Neue;
-  --font-body-regular-underline-font-weight: 400;
-  --font-body-regular-underline-font-style: normal;
-  --font-body-regular-underline-font-stretch: normal;
-  --font-body-regular-underline-font-style-old: Regular;
-  --font-body-regular-underline-letter-spacing: 0;
-  --font-body-regular-underline-line-height: 20px;
-  --font-body-regular-underline-paragraph-indent: 0;
-  --font-body-regular-underline-paragraph-spacing: 0;
-  --font-body-regular-underline-text-case: none;
-  --font-body-xs-font-size: 10px;
-  --font-body-xs-text-decoration: none;
-  --font-body-xs-font-family: Helvetica Neue;
-  --font-body-xs-font-weight: 400;
-  --font-body-xs-font-style: normal;
-  --font-body-xs-font-stretch: normal;
-  --font-body-xs-font-style-old: Regular;
-  --font-body-xs-letter-spacing: 0;
-  --font-body-xs-line-height: 20px;
-  --font-body-xs-paragraph-indent: 0;
-  --font-body-xs-paragraph-spacing: 0;
-  --font-body-xs-text-case: none;
-  --font-body-xxs-font-size: 8px;
-  --font-body-xxs-text-decoration: none;
-  --font-body-xxs-font-family: Helvetica Neue;
-  --font-body-xxs-font-weight: 400;
-  --font-body-xxs-font-style: normal;
-  --font-body-xxs-font-stretch: normal;
-  --font-body-xxs-font-style-old: Regular;
-  --font-body-xxs-letter-spacing: 0;
-  --font-body-xxs-line-height: 16px;
-  --font-body-xxs-paragraph-indent: 0;
-  --font-body-xxs-paragraph-spacing: 0;
-  --font-body-xxs-text-case: none;
-  --effect-shadow-general-one-type: dropShadow;
-  --effect-shadow-general-one-radius: 4px;
-  --effect-shadow-general-one-color: rgba(22, 23, 24, 0.16);
-  --effect-shadow-general-one-offset-x: 0;
-  --effect-shadow-general-one-offset-y: 2px;
-  --effect-shadow-general-one-spread: 0;
-  --effect-shadow-general-two-type: dropShadow;
-  --effect-shadow-general-two-radius: 12px;
-  --effect-shadow-general-two-color: rgba(22, 23, 24, 0.16);
-  --effect-shadow-general-two-offset-x: 0;
-  --effect-shadow-general-two-offset-y: 4px;
-  --effect-shadow-general-two-spread: 0;
-  --effect-shadow-general-three-type: dropShadow;
-  --effect-shadow-general-three-radius: 24px;
-  --effect-shadow-general-three-color: rgba(22, 23, 24, 0.16);
-  --effect-shadow-general-three-offset-x: 0;
-  --effect-shadow-general-three-offset-y: 8px;
-  --effect-shadow-general-three-spread: 0;
-  --effect-shadow-general-nav-type: dropShadow;
-  --effect-shadow-general-nav-radius: 3px;
-  --effect-shadow-general-nav-color: rgba(22, 23, 24, 0.16);
-  --effect-shadow-general-nav-offset-x: 0;
-  --effect-shadow-general-nav-offset-y: 1px;
-  --effect-shadow-general-nav-spread: 0;
-  --effect-shadow-card-card-type: dropShadow;
-  --effect-shadow-card-card-radius: 8px;
-  --effect-shadow-card-card-color: rgba(22, 23, 24, 0.16);
-  --effect-shadow-card-card-offset-x: 0;
-  --effect-shadow-card-card-offset-y: 2px;
-  --effect-shadow-card-card-spread: 1px;
-  --effect-shadow-card-card-hover-type: dropShadow;
-  --effect-shadow-card-card-hover-radius: 16px;
-  --effect-shadow-card-card-hover-color: rgba(22, 23, 24, 0.16);
-  --effect-shadow-card-card-hover-offset-x: 0;
-  --effect-shadow-card-card-hover-offset-y: 4px;
-  --effect-shadow-card-card-hover-spread: 1px;
-  --effect-shadow-focus-focus-type: dropShadow;
-  --effect-shadow-focus-focus-radius: 4px;
-  --effect-shadow-focus-focus-color: rgba(0, 140, 225, 1);
-  --effect-shadow-focus-focus-offset-x: 0;
-  --effect-shadow-focus-focus-offset-y: 0;
-  --effect-shadow-focus-focus-spread: 0;
+  --brand-primary: #0050a9;
+  --brand-secondary: #008cff;
+  --brand-tertiary: #002f55;
+  --text-text: #414b50;
+  --text-subtle: #72777e;
+  --text-reverse: #ffffff;
+  --text-super: #f99222;
+  --text-link: #0050a9;
+  --text-link-hover: #008cff;
+  --text-link-reverse: #ffffff;
+  --text-link-reverse-hover: #ffffff;
+  --text-link-disabled: #7f878a;
+  --text-link-disabled-subtle: #dde0e2;
+  --input-bg: #ffffff;
+  --input-bg-disabled: #f2f2f2;
+  --input-border-default: #b7babd;
+  --input-border-active: #0050a9;
+  --input-border-disabled: #dde0e2;
+  --background-light-primary: #ffffff;
+  --background-light-secondary: #f9f9f9;
+  --background-light-tertiary: #f2f2f2;
+  --background-dark-primary: #0050a9;
+  --background-dark-secondary: #002f55;
+  --background-dark-tertiary: #008cff;
+  --background-glyph: #f99222;
+  --border-utility: #dde0e2;
+  --border-focus: #008cff80;
+  --pill-primary: #f99222;
+  --pill-secondary: #008cff;
+  --pill-tertiary: #333333;
+  --utility-depth: #16171829;
+  --utility-positive: #48bd00;
+  --utility-positive-subtle: #f9f9f9;
+  --utility-attention: #f99222;
+  --utility-attention-subtle: #fff2ec;
+  --utility-negative: #e10000;
+  --utility-negative-subtle: #ffecec;
+  --button-primary-bg: #0050a9;
+  --button-primary-bg-hover: #003e7b;
+  --button-primary-bg-active: #002f55;
+  --button-primary-text: #ffffff;
+  --button-primary-outline-hover: #008cff;
+  --button-primary-bg-disabled: #dde0e2;
+  --button-primary-text-disabled: #7f878a;
+  --button-primary-reverse-bg: #ffffff;
+  --button-primary-reverse-bg-hover: #f9f9f9;
+  --button-primary-reverse-bg-active: #f2f2f2;
+  --button-primary-reverse-text: #0050a9;
+  --button-primary-reverse-outline-hover: #008cff;
+  --button-primary-reverse-bg-disabled: #ffffff;
+  --button-primary-reverse-text-disabled: #7f878a;
+  --button-primary-alt-bg: #008cff;
+  --button-primary-alt-bg-hover: #006bd0;
+  --button-primary-alt-bg-active: #0050a9;
+  --button-primary-alt-text: #ffffff;
+  --button-primary-alt-outline-hover: #002f55;
+  --button-primary-alt-bg-disabled: #dde0e2;
+  --button-primary-alt-text-disabled: #7f878a;
+  --button-secondary-bg: #f9f9f9;
+  --button-secondary-bg-hover: #f2f2f2;
+  --button-secondary-bg-active: #dde0e2;
+  --button-secondary-text: #414b50;
+  --button-secondary-border: #dde0e2;
+  --button-secondary-bg-disabled: #ffffff;
+  --button-secondary-text-disabled: #7f878a;
+  --button-secondary-alt-bg: #f9f9f9;
+  --button-secondary-alt-bg-hover: #0050a9;
+  --button-secondary-alt-bg-active: #002f55;
+  --button-secondary-alt-text: #414b50;
+  --button-secondary-alt-text-hover: #ffffff;
+  --button-secondary-alt-border: #dde0e2;
+  --button-secondary-alt-bg-disabled: #ffffff;
+  --button-secondary-alt-text-disabled: #7f878a;
+  --button-attention-bg: #f99222;
+  --button-attention-bg-hover: #d16019;
+  --button-attention-bg-active: #b03712;
+  --button-attention-text: #ffffff;
+  --button-attention-bg-disabled: #dde0e2;
+  --button-attention-text-disabled: #7f878a;
+  --swatch-blue: #0050a9;
+  --swatch-blue-highlight: #008cff;
+  --swatch-blue-lowlight: #002f55;
+  --swatch-blue-subtle: #edf8ff;
+  --swatch-orange: #f99222;
+  --swatch-orange-highlight: #ffcf3d;
+  --swatch-orange-lowlight: #b03712;
+  --swatch-orange-subtle: #fff2ec;
+  --swatch-red: #e10000;
+  --swatch-red-highlight: #ff4f4f;
+  --swatch-red-lowlight: #840000;
+  --swatch-red-subtle: #ffecec;
+  --swatch-green: #48bd00;
+  --swatch-green-lowlight: #237000;
+  --swatch-white: #ffffff;
+  --swatch-gray-2: #f9f9f9;
+  --swatch-gray-5: #f2f2f2;
+  --swatch-gray-11: #dde0e2;
+  --swatch-gray-26: #b7babd;
+  --swatch-gray-38: #72777e;
+  --swatch-gray-69: #414b50;
+  --swatch-gray-79: #161718;
+  --ds-purple: #7b61ff;
+  --ds-dark-gray: #00000099;
+  --ds-med-gray: #00000066;
+  --ds-section-title-font-family: Helvetica Neue;
+  --ds-section-title-font-weight: Bold;
+  --ds-section-title-line-height: AUTO;
+  --ds-section-title-font-size: 60;
+  --ds-section-title-letter-spacing: 0%;
+  --ds-section-title-paragraph-spacing: 0;
+  --ds-section-title-text-case: none;
+  --ds-section-title-text-decoration: none;
+  --ds-sub-title-font-family: Helvetica Neue;
+  --ds-sub-title-font-weight: Bold;
+  --ds-sub-title-line-height: 20;
+  --ds-sub-title-font-size: 30;
+  --ds-sub-title-letter-spacing: 0%;
+  --ds-sub-title-paragraph-spacing: 0;
+  --ds-sub-title-text-case: none;
+  --ds-sub-title-text-decoration: none;
+  --ds-helper-text-font-family: Helvetica Neue;
+  --ds-helper-text-font-weight: Bold;
+  --ds-helper-text-line-height: 145%;
+  --ds-helper-text-font-size: 14;
+  --ds-helper-text-letter-spacing: 0%;
+  --ds-helper-text-paragraph-spacing: 4;
+  --ds-helper-text-text-case: uppercase;
+  --ds-helper-text-text-decoration: none;
+  --font-families-helvetica-neue: Helvetica Neue;
+  --line-heights-0: 47.96;
+  --line-heights-1: 40;
+  --line-heights-2: 36;
+  --line-heights-3: 24;
+  --line-heights-4: 20;
+  --line-heights-5: 16;
+  --line-heights-6: AUTO;
+  --line-heights-7: 145%;
+  --font-weights-helvetica-neue-0: Bold;
+  --font-weights-helvetica-neue-1: Regular;
+  --font-size-0: 8;
+  --font-size-1: 10;
+  --font-size-2: 12;
+  --font-size-3: 14;
+  --font-size-4: 16;
+  --font-size-5: 18;
+  --font-size-6: 22;
+  --font-size-7: 28;
+  --font-size-8: 30;
+  --font-size-9: 36;
+  --font-size-10: 44;
+  --font-size-11: 60;
+  --letter-spacing-0: 0%;
+  --paragraph-spacing-0: 0;
+  --paragraph-spacing-1: 4;
+  --display-1-bold-font-family: Helvetica Neue;
+  --display-1-bold-font-weight: Bold;
+  --display-1-bold-line-height: 47.96;
+  --display-1-bold-font-size: 44;
+  --display-1-bold-letter-spacing: 0%;
+  --display-1-bold-paragraph-spacing: 0;
+  --display-1-bold-text-case: none;
+  --display-1-bold-text-decoration: none;
+  --display-1-regular-font-family: Helvetica Neue;
+  --display-1-regular-font-weight: Regular;
+  --display-1-regular-line-height: 47.96;
+  --display-1-regular-font-size: 44;
+  --display-1-regular-letter-spacing: 0%;
+  --display-1-regular-paragraph-spacing: 0;
+  --display-1-regular-text-case: none;
+  --display-1-regular-text-decoration: none;
+  --display-2-bold-font-family: Helvetica Neue;
+  --display-2-bold-font-weight: Bold;
+  --display-2-bold-line-height: 40;
+  --display-2-bold-font-size: 36;
+  --display-2-bold-letter-spacing: 0%;
+  --display-2-bold-paragraph-spacing: 0;
+  --display-2-bold-text-case: none;
+  --display-2-bold-text-decoration: none;
+  --display-2-regular-font-family: Helvetica Neue;
+  --display-2-regular-font-weight: Regular;
+  --display-2-regular-line-height: 40;
+  --display-2-regular-font-size: 36;
+  --display-2-regular-letter-spacing: 0%;
+  --display-2-regular-paragraph-spacing: 0;
+  --display-2-regular-text-case: none;
+  --display-2-regular-text-decoration: none;
+  --heading-2-font-family: Helvetica Neue;
+  --heading-2-font-weight: Bold;
+  --heading-2-line-height: 24;
+  --heading-2-font-size: 22;
+  --heading-2-letter-spacing: 0%;
+  --heading-2-paragraph-spacing: 0;
+  --heading-2-text-case: none;
+  --heading-2-text-decoration: none;
+  --heading-3-font-family: Helvetica Neue;
+  --heading-3-font-weight: Bold;
+  --heading-3-line-height: 24;
+  --heading-3-font-size: 18;
+  --heading-3-letter-spacing: 0%;
+  --heading-3-paragraph-spacing: 0;
+  --heading-3-text-case: none;
+  --heading-3-text-decoration: none;
+  --heading-4-font-family: Helvetica Neue;
+  --heading-4-font-weight: Bold;
+  --heading-4-line-height: 20;
+  --heading-4-font-size: 16;
+  --heading-4-letter-spacing: 0%;
+  --heading-4-paragraph-spacing: 0;
+  --heading-4-text-case: none;
+  --heading-4-text-decoration: none;
+  --heading-5-font-family: Helvetica Neue;
+  --heading-5-font-weight: Bold;
+  --heading-5-line-height: 20;
+  --heading-5-font-size: 14;
+  --heading-5-letter-spacing: 0%;
+  --heading-5-paragraph-spacing: 0;
+  --heading-5-text-case: none;
+  --heading-5-text-decoration: none;
+  --heading-6-font-family: Helvetica Neue;
+  --heading-6-font-weight: Bold;
+  --heading-6-line-height: 16;
+  --heading-6-font-size: 12;
+  --heading-6-letter-spacing: 0%;
+  --heading-6-paragraph-spacing: 0;
+  --heading-6-text-case: none;
+  --heading-6-text-decoration: none;
+  --heading-h1-font-family: Helvetica Neue;
+  --heading-h1-font-weight: Bold;
+  --heading-h1-line-height: 36;
+  --heading-h1-font-size: 28;
+  --heading-h1-letter-spacing: 0%;
+  --heading-h1-paragraph-spacing: 0;
+  --heading-h1-text-case: none;
+  --heading-h1-text-decoration: none;
+  --heading-5-underline-font-family: Helvetica Neue;
+  --heading-5-underline-font-weight: Bold;
+  --heading-5-underline-line-height: 20;
+  --heading-5-underline-font-size: 14;
+  --heading-5-underline-letter-spacing: 0%;
+  --heading-5-underline-paragraph-spacing: 0;
+  --heading-5-underline-text-case: none;
+  --heading-5-underline-text-decoration: underline;
+  --heading-6-underline-font-family: Helvetica Neue;
+  --heading-6-underline-font-weight: Bold;
+  --heading-6-underline-line-height: 20;
+  --heading-6-underline-font-size: 12;
+  --heading-6-underline-letter-spacing: 0%;
+  --heading-6-underline-paragraph-spacing: 0;
+  --heading-6-underline-text-case: none;
+  --heading-6-underline-text-decoration: underline;
+  --heading-h6-regular-font-family: Helvetica Neue;
+  --heading-h6-regular-font-weight: Regular;
+  --heading-h6-regular-line-height: 16;
+  --heading-h6-regular-font-size: 12;
+  --heading-h6-regular-letter-spacing: 0%;
+  --heading-h6-regular-paragraph-spacing: 0;
+  --heading-h6-regular-text-case: none;
+  --heading-h6-regular-text-decoration: none;
+  --heading-xs-font-family: Helvetica Neue;
+  --heading-xs-font-weight: Bold;
+  --heading-xs-line-height: 20;
+  --heading-xs-font-size: 10;
+  --heading-xs-letter-spacing: 0%;
+  --heading-xs-paragraph-spacing: 0;
+  --heading-xs-text-case: none;
+  --heading-xs-text-decoration: none;
+  --heading-xs-underline-font-family: Helvetica Neue;
+  --heading-xs-underline-font-weight: Bold;
+  --heading-xs-underline-line-height: 20;
+  --heading-xs-underline-font-size: 10;
+  --heading-xs-underline-letter-spacing: 0%;
+  --heading-xs-underline-paragraph-spacing: 0;
+  --heading-xs-underline-text-case: none;
+  --heading-xs-underline-text-decoration: underline;
+  --heading-xxs-font-family: Helvetica Neue;
+  --heading-xxs-font-weight: Bold;
+  --heading-xxs-line-height: 16;
+  --heading-xxs-font-size: 8;
+  --heading-xxs-letter-spacing: 0%;
+  --heading-xxs-paragraph-spacing: 0;
+  --heading-xxs-text-case: none;
+  --heading-xxs-text-decoration: none;
+  --body-regular-font-family: Helvetica Neue;
+  --body-regular-font-weight: Regular;
+  --body-regular-line-height: 20;
+  --body-regular-font-size: 14;
+  --body-regular-letter-spacing: 0%;
+  --body-regular-paragraph-spacing: 0;
+  --body-regular-text-case: none;
+  --body-regular-text-decoration: none;
+  --body-regular-underline-font-family: Helvetica Neue;
+  --body-regular-underline-font-weight: Regular;
+  --body-regular-underline-line-height: 20;
+  --body-regular-underline-font-size: 14;
+  --body-regular-underline-letter-spacing: 0%;
+  --body-regular-underline-paragraph-spacing: 0;
+  --body-regular-underline-text-case: none;
+  --body-regular-underline-text-decoration: underline;
+  --body-xs-font-family: Helvetica Neue;
+  --body-xs-font-weight: Regular;
+  --body-xs-line-height: 20;
+  --body-xs-font-size: 10;
+  --body-xs-letter-spacing: 0%;
+  --body-xs-paragraph-spacing: 0;
+  --body-xs-text-case: none;
+  --body-xs-text-decoration: none;
+  --body-xxs-font-family: Helvetica Neue;
+  --body-xxs-font-weight: Regular;
+  --body-xxs-line-height: 16;
+  --body-xxs-font-size: 8;
+  --body-xxs-letter-spacing: 0%;
+  --body-xxs-paragraph-spacing: 0;
+  --body-xxs-text-case: none;
+  --body-xxs-text-decoration: none;
+  --text-case-none: none;
+  --text-case-uppercase: uppercase;
+  --text-decoration-none: none;
+  --text-decoration-underline: underline;
+  --xlarge: 12;
+  --large: 8;
+  --medium: 4;
+  --small: 2;
+  --tst: 100;
+  --gap-a: 4;
+  --gap-b: 8;
+  --gap-c: 16;
+  --gap-d: 24;
+  --gap-e: 32;
+  --gap-f: 64;
+  --gap-g: 96;
+  --vertical-rhythm-small: 40;
+  --vertical-rhythm-large: 72;
+  --icon-xxsmall: 12;
+  --icon-xsmall: 16;
+  --icon-small: 20;
+  --icon-regular: 24;
+  --icon-large: 32;
+  --icon-xlarge: 40;
 }
