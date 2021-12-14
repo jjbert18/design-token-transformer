@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 14 Dec 2021 19:38:02 GMT
+// Generated on Tue, 14 Dec 2021 20:06:59 GMT
 
 
 import UIKit
@@ -27,7 +27,9 @@ public enum StyleDictionaryColor {
     public static let borderActive = #0050a9
     public static let borderDefault = #b7babd
     public static let borderDisabled = #dde0e2
-    public static let darkGray = #00000099
+    public static let brandPrimary = #0050a9
+    public static let brandSecondary = #008cff
+    public static let brandTertiary = #002f55
     public static let darkPrimary = #0050a9
     public static let darkSecondary = #002f55
     public static let darkTertiary = #008cff
@@ -52,7 +54,6 @@ public enum StyleDictionaryColor {
     public static let linkHover = #008cff
     public static let linkReverse = #ffffff
     public static let linkReverseHover = #ffffff
-    public static let medGray = #00000066
     public static let negative = #e10000
     public static let negativeSubtle = #ffecec
     public static let orange = #f99222
@@ -61,7 +62,6 @@ public enum StyleDictionaryColor {
     public static let orangeSubtle = #fff2ec
     public static let positive = #48bd00
     public static let positiveSubtle = #f9f9f9
-    public static let primary = #0050a9
     public static let primary = #f99222
     public static let primary = #16171829
     public static let primaryAltBackground = #008cff
@@ -85,13 +85,11 @@ public enum StyleDictionaryColor {
     public static let primaryReverseTextDisabled = #7f878a
     public static let primaryText = #ffffff
     public static let primaryTextDisabled = #7f878a
-    public static let purple = #7b61ff
     public static let red = #e10000
     public static let redHighlight = #ff4f4f
     public static let redLowlight = #840000
     public static let redSubtle = #ffecec
     public static let reverse = #ffffff
-    public static let secondary = #008cff
     public static let secondary = #008cff
     public static let secondaryAltBackground = #f9f9f9
     public static let secondaryAltBackgroundActive = #002f55
@@ -110,7 +108,6 @@ public enum StyleDictionaryColor {
     public static let secondaryTextDisabled = #7f878a
     public static let subtle = #72777e
     public static let super = #f99222
-    public static let tertiary = #002f55
     public static let tertiary = #333333
     public static let text = #414b50
     public static let utility = #dde0e2

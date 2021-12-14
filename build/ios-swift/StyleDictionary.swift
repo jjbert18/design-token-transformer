@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 14 Dec 2021 19:38:02 GMT
+// Generated on Tue, 14 Dec 2021 20:06:59 GMT
 
 
 import UIKit
@@ -51,9 +51,6 @@ public class StyleDictionary {
     public static let bodyXxsTextDecoration = none
     public static let borderFocus = #008cff80
     public static let borderUtility = #dde0e2
-    public static let brandPrimary = #0050a9
-    public static let brandSecondary = #008cff
-    public static let brandTertiary = #002f55
     public static let buttonAttentionBackground = #f99222
     public static let buttonAttentionBackgroundActive = #b03712
     public static let buttonAttentionBackgroundDisabled = #dde0e2
@@ -98,6 +95,9 @@ public class StyleDictionary {
     public static let buttonSecondaryTextDisabled = #7f878a
     public static let cardDefault = [object Object]
     public static let cardHover = [object Object]
+    public static let colorsBrandPrimary = #0050a9
+    public static let colorsBrandSecondary = #008cff
+    public static let colorsBrandTertiary = #002f55
     public static let depthPrimary = #16171829
     public static let display1BoldFontFamily = Helvetica Neue
     public static let display1BoldFontSize = 44
@@ -131,33 +131,6 @@ public class StyleDictionary {
     public static let display2RegularParagraphSpacing = 0
     public static let display2RegularTextCase = none
     public static let display2RegularTextDecoration = none
-    public static let dsDarkGray = #00000099
-    public static let dsHelperTextFontFamily = Helvetica Neue
-    public static let dsHelperTextFontSize = 14
-    public static let dsHelperTextFontWeight = Bold
-    public static let dsHelperTextLetterSpacing = 0%
-    public static let dsHelperTextLineHeight = 145%
-    public static let dsHelperTextParagraphSpacing = 4
-    public static let dsHelperTextTextCase = uppercase
-    public static let dsHelperTextTextDecoration = none
-    public static let dsMedGray = #00000066
-    public static let dsPurple = #7b61ff
-    public static let dsSectionTitleFontFamily = Helvetica Neue
-    public static let dsSectionTitleFontSize = 60
-    public static let dsSectionTitleFontWeight = Bold
-    public static let dsSectionTitleLetterSpacing = 0%
-    public static let dsSectionTitleLineHeight = AUTO
-    public static let dsSectionTitleParagraphSpacing = 0
-    public static let dsSectionTitleTextCase = none
-    public static let dsSectionTitleTextDecoration = none
-    public static let dsSubTitleFontFamily = Helvetica Neue
-    public static let dsSubTitleFontSize = 30
-    public static let dsSubTitleFontWeight = Bold
-    public static let dsSubTitleLetterSpacing = 0%
-    public static let dsSubTitleLineHeight = 20
-    public static let dsSubTitleParagraphSpacing = 0
-    public static let dsSubTitleTextCase = none
-    public static let dsSubTitleTextDecoration = none
     public static let fontFamiliesHelveticaNeue = Helvetica Neue
     public static let fontSize0 = 8
     public static let fontSize1 = 10

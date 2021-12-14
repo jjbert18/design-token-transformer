@@ -4,15 +4,15 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 14 Dec 2021 19:38:02 GMT
+// Generated on Tue, 14 Dec 2021 20:06:59 GMT
 
 
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, StyleDictionaryColorName) {
-BrandPrimary,
-BrandSecondary,
-BrandTertiary,
+ColorsBrandPrimary,
+ColorsBrandSecondary,
+ColorsBrandTertiary,
 TextText,
 TextSubtle,
 TextReverse,
@@ -111,9 +111,6 @@ SwatchGray26,
 SwatchGray38,
 SwatchGray69,
 SwatchGray79,
-DsPurple,
-DsDarkGray,
-DsMedGray,
 DepthPrimary
 };
 

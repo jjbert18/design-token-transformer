@@ -1,19 +1,21 @@
 {
-  "Brand": {
-    "Primary": {
-      "value": "#0050a9",
-      "type": "color",
-      "description": "swatch/blue"
-    },
-    "Secondary": {
-      "value": "#008cff",
-      "type": "color",
-      "description": "swatch/blue-highlight"
-    },
-    "Tertiary": {
-      "value": "#002f55",
-      "type": "color",
-      "description": "swatch/blue-lowlight"
+  "Colors": {
+    "Brand": {
+      "Primary": {
+        "value": "#0050a9",
+        "type": "color",
+        "description": "swatch/blue"
+      },
+      "Secondary": {
+        "value": "#008cff",
+        "type": "color",
+        "description": "swatch/blue-highlight"
+      },
+      "Tertiary": {
+        "value": "#002f55",
+        "type": "color",
+        "description": "swatch/blue-lowlight"
+      }
     }
   },
   "Text": {
@@ -506,98 +508,6 @@
     "Gray-79": {
       "value": "#161718",
       "type": "color"
-    }
-  },
-  "_DS": {
-    "purple": {
-      "value": "#7b61ff",
-      "type": "color"
-    },
-    "dark-gray": {
-      "value": "#00000099",
-      "type": "color"
-    },
-    "med-gray": {
-      "value": "#00000066",
-      "type": "color"
-    },
-    "Section Title": {
-      "fontFamily": {
-        "value": "Helvetica Neue"
-      },
-      "fontWeight": {
-        "value": "Bold"
-      },
-      "lineHeight": {
-        "value": "AUTO"
-      },
-      "fontSize": {
-        "value": 60
-      },
-      "letterSpacing": {
-        "value": "0%"
-      },
-      "paragraphSpacing": {
-        "value": 0
-      },
-      "textCase": {
-        "value": "none"
-      },
-      "textDecoration": {
-        "value": "none"
-      }
-    },
-    "Sub Title": {
-      "fontFamily": {
-        "value": "Helvetica Neue"
-      },
-      "fontWeight": {
-        "value": "Bold"
-      },
-      "lineHeight": {
-        "value": 20
-      },
-      "fontSize": {
-        "value": 30
-      },
-      "letterSpacing": {
-        "value": "0%"
-      },
-      "paragraphSpacing": {
-        "value": 0
-      },
-      "textCase": {
-        "value": "none"
-      },
-      "textDecoration": {
-        "value": "none"
-      }
-    },
-    "Helper Text": {
-      "fontFamily": {
-        "value": "Helvetica Neue"
-      },
-      "fontWeight": {
-        "value": "Bold"
-      },
-      "lineHeight": {
-        "value": "145%"
-      },
-      "fontSize": {
-        "value": 14
-      },
-      "letterSpacing": {
-        "value": "0%"
-      },
-      "paragraphSpacing": {
-        "value": 4
-      },
-      "textCase": {
-        "value": "uppercase"
-      },
-      "textDecoration": {
-        "value": "none"
-      }
     }
   },
   "fontFamilies": {
