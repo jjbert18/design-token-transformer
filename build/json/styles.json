@@ -1,5 +1,5 @@
 {
-  "BrandPrimary": "#0050a9",
+  "BrandPrimary": "$swatch.blue",
   "BrandSecondary": "#008cff",
   "BrandTertiary": "#002f55",
   "TextText": "#414b50",
@@ -331,10 +331,17 @@
   "GapG": 96,
   "VerticalRhythmSmall": 40,
   "VerticalRhythmLarge": 72,
-  "IconXxsmall": 12,
-  "IconXsmall": 16,
+  "IconXxSmall": 12,
+  "IconXSmall": 16,
   "IconSmall": 20,
   "IconRegular": 24,
   "IconLarge": 32,
-  "IconXlarge": 40
+  "IconXLarge": 40,
+  "Light": 1,
+  "Regular": 2,
+  "Thick": 4,
+  "RadiiSmall": 2,
+  "RadiiMedium": 4,
+  "RadiiLarge": 8,
+  "RadiiXlarge": 12
 }

@@ -1,9 +1,10 @@
 {
   "brand": {
     "primary": {
-      "value": "#0050a9",
+      "value": "$swatch.blue",
       "type": "color",
-      "description": "swatch/blue"
+      "description": "swatch/blue",
+      "failedToResolve": true
     },
     "secondary": {
       "value": "#008cff",
@@ -1291,79 +1292,122 @@
     "description": "test",
     "type": "borderRadius"
   },
-  "Gap A": {
+  "Gap": {
+    "A": {
+      "value": 4,
+      "description": "Space between elements",
+      "type": "spacing"
+    },
+    "B": {
+      "value": 8,
+      "description": "Space between elements",
+      "type": "spacing"
+    },
+    "C": {
+      "value": 16,
+      "description": "Space between elements",
+      "type": "spacing"
+    },
+    "D": {
+      "value": 24,
+      "description": "Space between elements",
+      "type": "spacing"
+    },
+    "E": {
+      "value": 32,
+      "description": "Space between elements",
+      "type": "spacing"
+    },
+    "F": {
+      "value": 64,
+      "description": "Space between elements",
+      "type": "spacing"
+    },
+    "G": {
+      "value": 96,
+      "description": "Space between elements",
+      "type": "spacing"
+    }
+  },
+  "Vertical Rhythm": {
+    "Small": {
+      "value": 40,
+      "description": "Vertical space between components",
+      "type": "spacing"
+    },
+    "Large": {
+      "value": 72,
+      "description": "Vertical space between components",
+      "type": "spacing"
+    }
+  },
+  "Icon": {
+    "XXSmall": {
+      "value": 12,
+      "description": "Icon Size",
+      "type": "sizing"
+    },
+    "XSmall": {
+      "value": 16,
+      "description": "Icon Size",
+      "type": "sizing"
+    },
+    "Small": {
+      "value": 20,
+      "description": "Icon Size",
+      "type": "sizing"
+    },
+    "Regular": {
+      "value": 24,
+      "description": "Icon Size",
+      "type": "sizing"
+    },
+    "Large": {
+      "value": 32,
+      "description": "Icon Size",
+      "type": "sizing"
+    },
+    "XLarge": {
+      "value": 40,
+      "description": "Icon Size",
+      "type": "sizing"
+    }
+  },
+  "Light": {
+    "value": 1,
+    "description": "Border width",
+    "type": "borderWidth"
+  },
+  "Regular": {
+    "value": 2,
+    "description": "Border Width",
+    "type": "borderWidth"
+  },
+  "Thick": {
     "value": 4,
-    "description": "Space between elements",
-    "type": "spacing"
+    "description": "Border Width",
+    "type": "borderWidth"
   },
-  "Gap B": {
-    "value": 8,
-    "description": "Space between elements",
-    "type": "spacing"
-  },
-  "Gap C": {
-    "value": 16,
-    "description": "Space between elements",
-    "type": "spacing"
-  },
-  "Gap D": {
-    "value": 24,
-    "description": "Space between elements",
-    "type": "spacing"
-  },
-  "Gap E": {
-    "value": 32,
-    "description": "Space between elements",
-    "type": "spacing"
-  },
-  "Gap F": {
-    "value": 64,
-    "description": "Space between elements",
-    "type": "spacing"
-  },
-  "Gap G": {
-    "value": 96,
-    "description": "Space between elements",
-    "type": "spacing"
-  },
-  "Vertical Rhythm Small": {
-    "value": 40,
-    "description": "Space between elements",
-    "type": "spacing"
-  },
-  "Vertical Rhythm Large": {
-    "value": 72,
-    "description": "Space between elements",
-    "type": "spacing"
-  },
-  "Icon xxsmall": {
-    "value": 12,
-    "description": "Icon size",
-    "type": "sizing"
-  },
-  "Icon xsmall": {
-    "value": 16,
-    "description": "Icon size",
-    "type": "sizing"
-  },
-  "Icon small": {
-    "value": 20,
-    "description": "Icon size",
-    "type": "sizing"
-  },
-  "Icon regular": {
-    "value": 24,
-    "description": "Icon size",
-    "type": "sizing"
-  },
-  "Icon large": {
-    "value": 32,
-    "description": "Icon size",
-    "type": "sizing"
-  },
-  "Icon xlarge": {
-    "value": 40,
-    "description": "Icon size",
-    "type": "sizing"
+  "Radii": {
+    "Small": {
+      "value": 2,
+      "description": "Border Radius",
+      "type": "other"
+    },
+    "Medium": {
+      "value": 4,
+      "description": "Border Radius",
+      "type": "other"
+    },
+    "Large": {
+      "value": 8,
+      "description": "Border Radius",
+      "type": "other"
+    },
+    "Xlarge": {
+      "value": 12,
+      "description": "Border Radius",
+      "type": "other"
+    }
   }
 }

@@ -1,8 +1,8 @@
 
 // Do not edit directly
-// Generated on Mon, 13 Dec 2021 15:57:58 GMT
+// Generated on Tue, 14 Dec 2021 17:00:35 GMT
 
-$brand-primary: #0050a9;
+$brand-primary: $swatch.blue;
 $brand-secondary: #008cff;
 $brand-tertiary: #002f55;
 $text-text: #414b50;
@@ -334,9 +334,16 @@ $gap-f: 64;
 $gap-g: 96;
 $vertical-rhythm-small: 40;
 $vertical-rhythm-large: 72;
-$icon-xxsmall: 12;
-$icon-xsmall: 16;
+$icon-xx-small: 12;
+$icon-x-small: 16;
 $icon-small: 20;
 $icon-regular: 24;
 $icon-large: 32;
-$icon-xlarge: 40;
+$icon-x-large: 40;
+$light: 1;
+$regular: 2;
+$thick: 4;
+$radii-small: 2;
+$radii-medium: 4;
+$radii-large: 8;
+$radii-xlarge: 12;

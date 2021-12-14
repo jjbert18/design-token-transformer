@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 13 Dec 2021 15:57:58 GMT
+// Generated on Tue, 14 Dec 2021 17:00:35 GMT
 
 
 import UIKit
@@ -61,7 +61,7 @@ public enum StyleDictionaryColor {
     public static let orangeSubtle = #fff2ec
     public static let positive = #48bd00
     public static let positiveSubtle = #f9f9f9
-    public static let primary = #0050a9
+    public static let primary = $swatch.blue
     public static let primary = #f99222
     public static let primaryAltBg = #008cff
     public static let primaryAltBgActive = #0050a9

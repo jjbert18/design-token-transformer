@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 13 Dec 2021 15:57:58 GMT
+// Generated on Tue, 14 Dec 2021 17:00:35 GMT
 
 
 import UIKit
@@ -51,7 +51,7 @@ public class StyleDictionary {
     public static let bodyXxsTextDecoration = none
     public static let borderFocus = #008cff80
     public static let borderUtility = #dde0e2
-    public static let brandPrimary = #0050a9
+    public static let brandPrimary = $swatch.blue
     public static let brandSecondary = #008cff
     public static let brandTertiary = #002f55
     public static let buttonAttentionBg = #f99222
@@ -276,9 +276,9 @@ public class StyleDictionary {
     public static let iconLarge = 32
     public static let iconRegular = 24
     public static let iconSmall = 20
-    public static let iconXlarge = 40
-    public static let iconXsmall = 16
-    public static let iconXxsmall = 12
+    public static let iconXLarge = 40
+    public static let iconXSmall = 16
+    public static let iconXxSmall = 12
     public static let inputBg = #ffffff
     public static let inputBgDisabled = #f2f2f2
     public static let inputBorderActive = #0050a9
@@ -286,6 +286,7 @@ public class StyleDictionary {
     public static let inputBorderDisabled = #dde0e2
     public static let large = 8
     public static let letterSpacing0 = 0%
+    public static let light = 1
     public static let lineHeights0 = 47.96
     public static let lineHeights1 = 40
     public static let lineHeights2 = 36
@@ -300,6 +301,11 @@ public class StyleDictionary {
     public static let pillPrimary = #f99222
     public static let pillSecondary = #008cff
     public static let pillTertiary = #333333
+    public static let radiiLarge = 8
+    public static let radiiMedium = 4
+    public static let radiiSmall = 2
+    public static let radiiXlarge = 12
+    public static let regular = 2
     public static let small = 2
     public static let swatchBlue = #0050a9
     public static let swatchBlueHighlight = #008cff
@@ -337,6 +343,7 @@ public class StyleDictionary {
     public static let textSubtle = #72777e
     public static let textSuper = #f99222
     public static let textText = #414b50
+    public static let thick = 4
     public static let tst = 100
     public static let utilityAttention = #f99222
     public static let utilityAttentionSubtle = #fff2ec
