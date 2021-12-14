@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 14 Dec 2021 20:19:42 GMT
+// Generated on Tue, 14 Dec 2021 20:22:56 GMT
 
 
 import UIKit
@@ -17,6 +17,10 @@ public enum StyleDictionaryColor {
     public static let backgroundLightPrimary = #ffffff
     public static let backgroundLightSecondary = #f9f9f9
     public static let backgroundLightTertiary = #f2f2f2
+    public static let blue = #0050a9
+    public static let blueHighlight = #008cff
+    public static let blueLowlight = #002f55
+    public static let blueSubtle = #edf8ff
     public static let borderFocus = #008cff80
     public static let borderUtility = #dde0e2
     public static let brandPrimary = #0050a9
@@ -64,6 +68,15 @@ public enum StyleDictionaryColor {
     public static let buttonSecondaryBorder = #dde0e2
     public static let buttonSecondaryText = #414b50
     public static let buttonSecondaryTextDisabled = #7f878a
+    public static let gray11 = #dde0e2
+    public static let gray2 = #f9f9f9
+    public static let gray26 = #b7babd
+    public static let gray38 = #72777e
+    public static let gray5 = #f2f2f2
+    public static let gray69 = #414b50
+    public static let gray79 = #161718
+    public static let green = #48bd00
+    public static let greenLowlight = #237000
     public static let inputBackground = #ffffff
     public static let inputBackgroundDisabled = #f2f2f2
     public static let inputBorderActive = #0050a9
@@ -74,31 +87,17 @@ public enum StyleDictionaryColor {
     public static let linkLinkHover = #008cff
     public static let linkLinkReverse = #ffffff
     public static let linkLinkReverseHover = #ffffff
+    public static let orange = #f99222
+    public static let orangeHighlight = #ffcf3d
+    public static let orangeLowlight = #b03712
+    public static let orangeSubtle = #fff2ec
     public static let pillPrimary = #f99222
     public static let pillSecondary = #008cff
     public static let pillTertiary = #333333
-    public static let swatchBlue = #0050a9
-    public static let swatchBlueHighlight = #008cff
-    public static let swatchBlueLowlight = #002f55
-    public static let swatchBlueSubtle = #edf8ff
-    public static let swatchGray11 = #dde0e2
-    public static let swatchGray2 = #f9f9f9
-    public static let swatchGray26 = #b7babd
-    public static let swatchGray38 = #72777e
-    public static let swatchGray5 = #f2f2f2
-    public static let swatchGray69 = #414b50
-    public static let swatchGray79 = #161718
-    public static let swatchGreen = #48bd00
-    public static let swatchGreenLowlight = #237000
-    public static let swatchOrange = #f99222
-    public static let swatchOrangeHighlight = #ffcf3d
-    public static let swatchOrangeLowlight = #b03712
-    public static let swatchOrangeSubtle = #fff2ec
-    public static let swatchRed = #e10000
-    public static let swatchRedHighlight = #ff4f4f
-    public static let swatchRedLowlight = #840000
-    public static let swatchRedSubtle = #ffecec
-    public static let swatchWhite = #ffffff
+    public static let red = #e10000
+    public static let redHighlight = #ff4f4f
+    public static let redLowlight = #840000
+    public static let redSubtle = #ffecec
     public static let textLink = #0050a9
     public static let textReverse = #ffffff
     public static let textSubtle = #72777e
@@ -111,4 +110,5 @@ public enum StyleDictionaryColor {
     public static let utilityNegativeSubtle = #ffecec
     public static let utilityPositive = #48bd00
     public static let utilityPositiveSubtle = #f9f9f9
+    public static let white = #ffffff
 }

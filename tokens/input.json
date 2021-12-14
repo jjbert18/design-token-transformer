@@ -1,5 +1,5 @@
 {
-  "Colors": {
+  "Color": {
     "Brand": {
       "Primary": {
         "value": "#0050a9",
@@ -420,96 +420,96 @@
           "description": "oddity"
         }
       }
+    }
+  },
+  "Swatch": {
+    "Blue": {
+      "value": "#0050a9",
+      "type": "color"
     },
-    "Swatch": {
-      "Blue": {
-        "value": "#0050a9",
-        "type": "color"
-      },
-      "Blue-Highlight": {
-        "value": "#008cff",
-        "type": "color"
-      },
-      "Blue-Lowlight": {
-        "value": "#002f55",
-        "type": "color"
-      },
-      "Blue-Subtle": {
-        "value": "#edf8ff",
-        "type": "color"
-      },
-      "Orange": {
-        "value": "#f99222",
-        "type": "color"
-      },
-      "Orange-Highlight": {
-        "value": "#ffcf3d",
-        "type": "color"
-      },
-      "Orange-Lowlight": {
-        "value": "#b03712",
-        "type": "color"
-      },
-      "Orange-Subtle": {
-        "value": "#fff2ec",
-        "type": "color"
-      },
-      "Red": {
-        "value": "#e10000",
-        "type": "color"
-      },
-      "Red-Highlight": {
-        "value": "#ff4f4f",
-        "type": "color"
-      },
-      "Red-Lowlight": {
-        "value": "#840000",
-        "type": "color"
-      },
-      "Red-Subtle": {
-        "value": "#ffecec",
-        "type": "color"
-      },
-      "Green": {
-        "value": "#48bd00",
-        "type": "color"
-      },
-      "Green-Lowlight": {
-        "value": "#237000",
-        "type": "color"
-      },
-      "White": {
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "Gray-2": {
-        "value": "#f9f9f9",
-        "type": "color"
-      },
-      "Gray-5": {
-        "value": "#f2f2f2",
-        "type": "color"
-      },
-      "Gray-11": {
-        "value": "#dde0e2",
-        "type": "color"
-      },
-      "Gray-26": {
-        "value": "#b7babd",
-        "type": "color"
-      },
-      "Gray-38": {
-        "value": "#72777e",
-        "type": "color"
-      },
-      "Gray-69": {
-        "value": "#414b50",
-        "type": "color"
-      },
-      "Gray-79": {
-        "value": "#161718",
-        "type": "color"
-      }
+    "Blue-Highlight": {
+      "value": "#008cff",
+      "type": "color"
+    },
+    "Blue-Lowlight": {
+      "value": "#002f55",
+      "type": "color"
+    },
+    "Blue-Subtle": {
+      "value": "#edf8ff",
+      "type": "color"
+    },
+    "Orange": {
+      "value": "#f99222",
+      "type": "color"
+    },
+    "Orange-Highlight": {
+      "value": "#ffcf3d",
+      "type": "color"
+    },
+    "Orange-Lowlight": {
+      "value": "#b03712",
+      "type": "color"
+    },
+    "Orange-Subtle": {
+      "value": "#fff2ec",
+      "type": "color"
+    },
+    "Red": {
+      "value": "#e10000",
+      "type": "color"
+    },
+    "Red-Highlight": {
+      "value": "#ff4f4f",
+      "type": "color"
+    },
+    "Red-Lowlight": {
+      "value": "#840000",
+      "type": "color"
+    },
+    "Red-Subtle": {
+      "value": "#ffecec",
+      "type": "color"
+    },
+    "Green": {
+      "value": "#48bd00",
+      "type": "color"
+    },
+    "Green-Lowlight": {
+      "value": "#237000",
+      "type": "color"
+    },
+    "White": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "Gray-2": {
+      "value": "#f9f9f9",
+      "type": "color"
+    },
+    "Gray-5": {
+      "value": "#f2f2f2",
+      "type": "color"
+    },
+    "Gray-11": {
+      "value": "#dde0e2",
+      "type": "color"
+    },
+    "Gray-26": {
+      "value": "#b7babd",
+      "type": "color"
+    },
+    "Gray-38": {
+      "value": "#72777e",
+      "type": "color"
+    },
+    "Gray-69": {
+      "value": "#414b50",
+      "type": "color"
+    },
+    "Gray-79": {
+      "value": "#161718",
+      "type": "color"
     }
   },
   "fontFamilies": {
