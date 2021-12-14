@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 14 Dec 2021 17:00:35 GMT
+// Generated on Tue, 14 Dec 2021 17:10:21 GMT
 
 
 import UIKit
@@ -51,7 +51,7 @@ public class StyleDictionary {
     public static let bodyXxsTextDecoration = none
     public static let borderFocus = #008cff80
     public static let borderUtility = #dde0e2
-    public static let brandPrimary = $swatch.blue
+    public static let brandPrimary = #0050a9
     public static let brandSecondary = #008cff
     public static let brandTertiary = #002f55
     public static let buttonAttentionBg = #f99222

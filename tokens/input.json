@@ -1,10 +1,9 @@
 {
   "brand": {
     "primary": {
-      "value": "$swatch.blue",
+      "value": "#0050a9",
       "type": "color",
-      "description": "swatch/blue",
-      "failedToResolve": true
+      "description": "swatch/blue"
     },
     "secondary": {
       "value": "#008cff",

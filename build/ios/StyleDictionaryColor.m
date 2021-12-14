@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 14 Dec 2021 17:00:35 GMT
+// Generated on Tue, 14 Dec 2021 17:10:21 GMT
 
 
 #import "StyleDictionaryColor.h"
@@ -21,7 +21,7 @@
 
   dispatch_once(&onceToken, ^{
     colorArray = @[
-$swatch.blue,
+#0050a9,
 #008cff,
 #002f55,
 #414b50,
