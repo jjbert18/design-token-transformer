@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 14 Dec 2021 17:15:01 GMT
+// Generated on Tue, 14 Dec 2021 17:41:34 GMT
 
 
 import UIKit
@@ -279,8 +279,8 @@ public class StyleDictionary {
     public static let iconXLarge = 40
     public static let iconXSmall = 16
     public static let iconXxSmall = 12
-    public static let inputBg = #ffffff
-    public static let inputBgDisabled = #f2f2f2
+    public static let inputBackground = #ffffff
+    public static let inputBackgroundDisabled = #f2f2f2
     public static let inputBorderActive = #0050a9
     public static let inputBorderDefault = #b7babd
     public static let inputBorderDisabled = #dde0e2

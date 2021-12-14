@@ -1,194 +1,194 @@
 {
-  "brand": {
-    "primary": {
+  "Brand": {
+    "Primary": {
       "value": "#0050a9",
       "type": "color",
       "description": "swatch/blue"
     },
-    "secondary": {
+    "Secondary": {
       "value": "#008cff",
       "type": "color",
       "description": "swatch/blue-highlight"
     },
-    "tertiary": {
+    "Tertiary": {
       "value": "#002f55",
       "type": "color",
       "description": "swatch/blue-lowlight"
     }
   },
-  "text": {
-    "text": {
+  "Text": {
+    "Text": {
       "value": "#414b50",
       "type": "color",
       "description": "swatch/gray-69"
     },
-    "subtle": {
+    "Subtle": {
       "value": "#72777e",
       "type": "color",
       "description": "swatch/gray-38"
     },
-    "reverse": {
+    "Reverse": {
       "value": "#ffffff",
       "type": "color",
       "description": "swatch/white"
     },
-    "super": {
+    "Super": {
       "value": "#f99222",
       "type": "color",
       "description": "swatch/orange"
     },
-    "link": {
+    "Link": {
       "value": "#0050a9",
       "type": "color",
       "description": "swatch/blue"
     },
-    "link-hover": {
+    "Link-Hover": {
       "value": "#008cff",
       "type": "color",
       "description": "swatch/blue-highlight"
     },
-    "link-reverse": {
+    "Link-Reverse": {
       "value": "#ffffff",
       "type": "color",
       "description": "swatch/white"
     },
-    "link-reverse-hover": {
+    "Link-Reverse-Hover": {
       "value": "#ffffff",
       "type": "color",
       "description": "swatch/white"
     },
-    "link disabled": {
+    "Link-Disabled": {
       "value": "#7f878a",
       "type": "color"
     },
-    "link disabled subtle": {
+    "Link-Disabled_Subtle": {
       "value": "#dde0e2",
       "type": "color",
       "description": "swatch/gray-11"
     }
   },
-  "input": {
-    "bg": {
+  "Input": {
+    "Background": {
       "value": "#ffffff",
       "type": "color",
       "description": "swatch/white"
     },
-    "bg-disabled": {
+    "Background-Disabled": {
       "value": "#f2f2f2",
       "type": "color",
       "description": "swatch/gray-5"
     },
-    "border-default": {
+    "Border-Default": {
       "value": "#b7babd",
       "type": "color",
       "description": "swatch/gray-26"
     },
-    "border-active": {
+    "Border-Active": {
       "value": "#0050a9",
       "type": "color",
       "description": "swatch/blue"
     },
-    "border-disabled": {
+    "Border-Disabled": {
       "value": "#dde0e2",
       "type": "color",
       "description": "swatch/gray-11"
     }
   },
-  "background": {
-    "light-primary": {
+  "Background": {
+    "Light-Primary": {
       "value": "#ffffff",
       "type": "color",
       "description": "swatch/white"
     },
-    "light-secondary": {
+    "Light-Secondary": {
       "value": "#f9f9f9",
       "type": "color",
       "description": "swatch/gray-2"
     },
-    "light-tertiary": {
+    "Light-Tertiary": {
       "value": "#f2f2f2",
       "type": "color",
       "description": "swatch/gray-5"
     },
-    "dark-primary": {
+    "Dark-Primary": {
       "value": "#0050a9",
       "type": "color",
       "description": "swatch/blue"
     },
-    "dark-secondary": {
+    "Dark-Secondary": {
       "value": "#002f55",
       "type": "color",
       "description": "swatch/blue-lowlight"
     },
-    "dark-tertiary": {
+    "Dark-Tertiary": {
       "value": "#008cff",
       "type": "color",
       "description": "swatch/blue-highlight"
     },
-    "glyph": {
+    "Glyph": {
       "value": "#f99222",
       "type": "color",
       "description": "swatch/orange"
     }
   },
-  "border": {
-    "utility": {
+  "Border": {
+    "Utility": {
       "value": "#dde0e2",
       "type": "color",
       "description": "swatch/gray-11"
     },
-    "focus": {
+    "Focus": {
       "value": "#008cff80",
       "type": "color"
     }
   },
-  "pill": {
-    "primary": {
+  "Pill": {
+    "Primary": {
       "value": "#f99222",
       "type": "color",
       "description": "swatch/orange"
     },
-    "secondary": {
+    "Secondary": {
       "value": "#008cff",
       "type": "color",
       "description": "swatch/blue-highlight"
     },
-    "tertiary": {
+    "Tertiary": {
       "value": "#333333",
       "type": "color"
     }
   },
-  "utility": {
-    "depth": {
+  "Utility": {
+    "Depth": {
       "value": "#16171829",
       "type": "color"
     },
-    "positive": {
+    "Positive": {
       "value": "#48bd00",
       "type": "color",
       "description": "swatch/green"
     },
-    "positive subtle": {
+    "Positive-Subtle": {
       "value": "#f9f9f9",
       "type": "color",
       "description": "swatch/gray-2"
     },
-    "attention": {
+    "Attention": {
       "value": "#f99222",
       "type": "color",
       "description": "swatch/orange"
     },
-    "attention subtle": {
+    "Attention-Subtle": {
       "value": "#fff2ec",
       "type": "color",
       "description": "swatch/orange-subtle"
     },
-    "negative": {
+    "Negative": {
       "value": "#e10000",
       "type": "color",
       "description": "swatch/red"
     },
-    "negative subtle": {
+    "Negative-Subtle": {
       "value": "#ffecec",
       "type": "color",
       "description": "swatch/red-subtle"
@@ -418,94 +418,92 @@
       }
     }
   },
-  "swatch": {
-    "blue": {
+  "Swatch": {
+    "Blue": {
       "value": "#0050a9",
       "type": "color"
-    }
-  },
-  "_swatch": {
-    "blue-highlight": {
+    },
+    "Blue-Highlight": {
       "value": "#008cff",
       "type": "color"
     },
-    "blue-lowlight": {
+    "Blue-Lowlight": {
       "value": "#002f55",
       "type": "color"
     },
-    "blue-subtle": {
+    "Blue-Subtle": {
       "value": "#edf8ff",
       "type": "color"
     },
-    "orange": {
+    "Orange": {
       "value": "#f99222",
       "type": "color"
     },
-    "orange-highlight": {
+    "Orange-Highlight": {
       "value": "#ffcf3d",
       "type": "color"
     },
-    "orange-lowlight": {
+    "Orange-Lowlight": {
       "value": "#b03712",
       "type": "color"
     },
-    "orange-subtle": {
+    "Orange-Subtle": {
       "value": "#fff2ec",
       "type": "color"
     },
-    "red": {
+    "Red": {
       "value": "#e10000",
       "type": "color"
     },
-    "red-highlight": {
+    "Red-Highlight": {
       "value": "#ff4f4f",
       "type": "color"
     },
-    "red-lowlight": {
+    "Red-Lowlight": {
       "value": "#840000",
       "type": "color"
     },
-    "red-subtle": {
+    "Red-Subtle": {
       "value": "#ffecec",
       "type": "color"
     },
-    "green": {
+    "Green": {
       "value": "#48bd00",
       "type": "color"
     },
-    "green-lowlight": {
+    "Green-Lowlight": {
       "value": "#237000",
       "type": "color"
     },
-    "white": {
+    "White": {
       "value": "#ffffff",
       "type": "color"
     },
-    "gray-2": {
+    "Gray-2": {
       "value": "#f9f9f9",
       "type": "color"
     },
-    "gray-5": {
+    "Gray-5": {
       "value": "#f2f2f2",
       "type": "color"
     },
-    "gray-11": {
+    "Gray-11": {
       "value": "#dde0e2",
       "type": "color"
     },
-    "gray-26": {
+    "Gray-26": {
       "value": "#b7babd",
       "type": "color"
     },
-    "gray-38": {
+    "Gray-38": {
       "value": "#72777e",
       "type": "color"
     },
-    "gray-69": {
+    "Gray-69": {
       "value": "#414b50",
       "type": "color"
     },
-    "gray-79": {
+    "Gray-79": {
       "value": "#161718",
       "type": "color"
     }

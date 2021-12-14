@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 14 Dec 2021 17:15:01 GMT
+// Generated on Tue, 14 Dec 2021 17:41:34 GMT
 
 
 import UIKit
@@ -18,8 +18,8 @@ public enum StyleDictionaryColor {
     public static let attentionSubtle = #fff2ec
     public static let attentionText = #ffffff
     public static let attentionTextDisabled = #7f878a
-    public static let bg = #ffffff
-    public static let bgDisabled = #f2f2f2
+    public static let background = #ffffff
+    public static let backgroundDisabled = #f2f2f2
     public static let blue = #0050a9
     public static let blueHighlight = #008cff
     public static let blueLowlight = #002f55
