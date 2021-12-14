@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 14 Dec 2021 20:22:56 GMT
+// Generated on Tue, 14 Dec 2021 20:35:56 GMT
 
 
 import UIKit
@@ -42,8 +42,9 @@ public class StyleDictionary {
     public static let bodyXxsParagraphSpacing = 0
     public static let bodyXxsTextCase = none
     public static let bodyXxsTextDecoration = none
-    public static let cardDefault = [object Object]
-    public static let cardHover = [object Object]
+    public static let borderWidthLight = 1
+    public static let borderWidthRegular = 2
+    public static let borderWidthThick = 4
     public static let colorBackgroundDarkPrimary = #0050a9
     public static let colorBackgroundDarkSecondary = #002f55
     public static let colorBackgroundDarkTertiary = #008cff
@@ -177,11 +178,6 @@ public class StyleDictionary {
     public static let gapE = 32
     public static let gapF = 64
     public static let gapG = 96
-    public static let generalDepthOne = [object Object]
-    public static let generalDepthThree = [object Object]
-    public static let generalDepthTwo = [object Object]
-    public static let generalFocus = [object Object]
-    public static let generalNavigation = [object Object]
     public static let heading2FontFamily = Helvetica Neue
     public static let heading2FontSize = 22
     public static let heading2FontWeight = Bold
@@ -278,15 +274,13 @@ public class StyleDictionary {
     public static let headingXxsParagraphSpacing = 0
     public static let headingXxsTextCase = none
     public static let headingXxsTextDecoration = none
-    public static let iconLarge = 32
-    public static let iconRegular = 24
-    public static let iconSmall = 20
-    public static let iconXLarge = 40
-    public static let iconXSmall = 16
-    public static let iconXxSmall = 12
-    public static let large = 8
+    public static let iconSizeLarge = 32
+    public static let iconSizeRegular = 24
+    public static let iconSizeSmall = 20
+    public static let iconSizeXLarge = 40
+    public static let iconSizeXSmall = 16
+    public static let iconSizeXxSmall = 12
     public static let letterSpacing0 = 0%
-    public static let light = 1
     public static let lineHeights0 = 47.96
     public static let lineHeights1 = 40
     public static let lineHeights2 = 36
@@ -295,15 +289,19 @@ public class StyleDictionary {
     public static let lineHeights5 = 16
     public static let lineHeights6 = AUTO
     public static let lineHeights7 = 145%
-    public static let medium = 4
     public static let paragraphSpacing0 = 0
     public static let paragraphSpacing1 = 4
     public static let radiiLarge = 8
     public static let radiiMedium = 4
     public static let radiiSmall = 2
-    public static let radiiXlarge = 12
-    public static let regular = 2
-    public static let small = 2
+    public static let radiiXLarge = 12
+    public static let shadowCardDefault = [object Object]
+    public static let shadowCardHover = [object Object]
+    public static let shadowGeneralDepthOne = [object Object]
+    public static let shadowGeneralDepthThree = [object Object]
+    public static let shadowGeneralDepthTwo = [object Object]
+    public static let shadowGeneralFocus = [object Object]
+    public static let shadowGeneralNavigation = [object Object]
     public static let swatchBlue = #0050a9
     public static let swatchBlueHighlight = #008cff
     public static let swatchBlueLowlight = #002f55
@@ -330,9 +328,6 @@ public class StyleDictionary {
     public static let textCaseUppercase = uppercase
     public static let textDecorationNone = none
     public static let textDecorationUnderline = underline
-    public static let thick = 4
-    public static let tst = 100
     public static let verticalRhythmLarge = 72
     public static let verticalRhythmSmall = 40
-    public static let xlarge = 12
 }
