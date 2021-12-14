@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 14 Dec 2021 19:27:54 GMT
+// Generated on Tue, 14 Dec 2021 19:33:27 GMT
 
 
 import UIKit
@@ -96,7 +96,8 @@ public class StyleDictionary {
     public static let buttonSecondaryBorder = #dde0e2
     public static let buttonSecondaryText = #414b50
     public static let buttonSecondaryTextDisabled = #7f878a
-    public static let depthGeneralOne = [object Object]
+    public static let cardDefault = [object Object]
+    public static let cardHover = [object Object]
     public static let depthPrimary = #16171829
     public static let display1BoldFontFamily = Helvetica Neue
     public static let display1BoldFontSize = 44
@@ -179,6 +180,10 @@ public class StyleDictionary {
     public static let gapE = 32
     public static let gapF = 64
     public static let gapG = 96
+    public static let generalDepthOne = [object Object]
+    public static let generalDepthThree = [object Object]
+    public static let generalDepthTwo = [object Object]
+    public static let generalNavigation = [object Object]
     public static let heading2FontFamily = Helvetica Neue
     public static let heading2FontSize = 22
     public static let heading2FontWeight = Bold

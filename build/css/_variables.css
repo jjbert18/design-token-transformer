@@ -344,6 +344,11 @@
   --radii-medium: 4;
   --radii-large: 8;
   --radii-xlarge: 12;
-  --depth-general-one: [object Object];
+  --general-depth-one: [object Object];
+  --general-depth-two: [object Object];
+  --general-depth-three: [object Object];
+  --general-navigation: [object Object];
   --depth-primary: #16171829;
+  --card-default: [object Object];
+  --card-hover: [object Object];
 }

@@ -1409,8 +1409,8 @@
       "type": "other"
     }
   },
-  "Depth": {
-    "General-One": {
+  "General": {
+    "Depth-One": {
       "value": {
         "x": 0,
         "y": "2px",
@@ -1421,10 +1421,69 @@
       },
       "type": "boxShadow"
     },
+    "Depth-Two": {
+      "value": {
+        "x": 0,
+        "y": "4px",
+        "blur": "12px",
+        "spread": 0,
+        "color": "#16171829",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "Depth-Three": {
+      "value": {
+        "x": 0,
+        "y": "8px",
+        "blur": "24px",
+        "spread": 0,
+        "color": "#16171829",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "Navigation": {
+      "value": {
+        "x": 0,
+        "y": "1px",
+        "blur": "3px",
+        "spread": 0,
+        "color": "#16171829",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    }
+  },
+  "Depth": {
     "Primary": {
       "value": "#16171829",
       "description": "Shadows",
       "type": "color"
+    }
+  },
+  "Card": {
+    "Default": {
+      "value": {
+        "x": 0,
+        "y": "2px",
+        "blur": "8px",
+        "spread": "1px",
+        "color": "#16171829",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "Hover": {
+      "value": {
+        "x": 0,
+        "y": "4px",
+        "blur": "16px",
+        "spread": "1px",
+        "color": "#16171829",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
     }
   }
 }
