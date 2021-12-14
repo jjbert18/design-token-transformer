@@ -16,498 +16,500 @@
         "type": "color",
         "description": "swatch/blue-lowlight"
       }
-    }
-  },
-  "Text": {
+    },
     "Text": {
-      "value": "#414b50",
-      "type": "color",
-      "description": "swatch/gray-69"
-    },
-    "Subtle": {
-      "value": "#72777e",
-      "type": "color",
-      "description": "swatch/gray-38"
-    },
-    "Reverse": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": "swatch/white"
-    },
-    "Super": {
-      "value": "#f99222",
-      "type": "color",
-      "description": "swatch/orange"
-    },
-    "Link": {
-      "value": "#0050a9",
-      "type": "color",
-      "description": "swatch/blue"
-    },
-    "Link-Hover": {
-      "value": "#008cff",
-      "type": "color",
-      "description": "swatch/blue-highlight"
-    },
-    "Link-Reverse": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": "swatch/white"
-    },
-    "Link-Reverse-Hover": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": "swatch/white"
-    },
-    "Link-Disabled": {
-      "value": "#7f878a",
-      "type": "color"
-    },
-    "Link-Disabled_Subtle": {
-      "value": "#dde0e2",
-      "type": "color",
-      "description": "swatch/gray-11"
-    }
-  },
-  "Input": {
-    "Background": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": "swatch/white"
-    },
-    "Background-Disabled": {
-      "value": "#f2f2f2",
-      "type": "color",
-      "description": "swatch/gray-5"
-    },
-    "Border-Default": {
-      "value": "#b7babd",
-      "type": "color",
-      "description": "swatch/gray-26"
-    },
-    "Border-Active": {
-      "value": "#0050a9",
-      "type": "color",
-      "description": "swatch/blue"
-    },
-    "Border-Disabled": {
-      "value": "#dde0e2",
-      "type": "color",
-      "description": "swatch/gray-11"
-    }
-  },
-  "Background": {
-    "Light-Primary": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": "swatch/white"
-    },
-    "Light-Secondary": {
-      "value": "#f9f9f9",
-      "type": "color",
-      "description": "swatch/gray-2"
-    },
-    "Light-Tertiary": {
-      "value": "#f2f2f2",
-      "type": "color",
-      "description": "swatch/gray-5"
-    },
-    "Dark-Primary": {
-      "value": "#0050a9",
-      "type": "color",
-      "description": "swatch/blue"
-    },
-    "Dark-Secondary": {
-      "value": "#002f55",
-      "type": "color",
-      "description": "swatch/blue-lowlight"
-    },
-    "Dark-Tertiary": {
-      "value": "#008cff",
-      "type": "color",
-      "description": "swatch/blue-highlight"
-    },
-    "Glyph": {
-      "value": "#f99222",
-      "type": "color",
-      "description": "swatch/orange"
-    }
-  },
-  "Border": {
-    "Utility": {
-      "value": "#dde0e2",
-      "type": "color",
-      "description": "swatch/gray-11"
-    },
-    "Focus": {
-      "value": "#008cff80",
-      "type": "color"
-    }
-  },
-  "Pill": {
-    "Primary": {
-      "value": "#f99222",
-      "type": "color",
-      "description": "swatch/orange"
-    },
-    "Secondary": {
-      "value": "#008cff",
-      "type": "color",
-      "description": "swatch/blue-highlight"
-    },
-    "Tertiary": {
-      "value": "#333333",
-      "type": "color"
-    }
-  },
-  "Utility": {
-    "Depth": {
-      "value": "#16171829",
-      "type": "color"
-    },
-    "Positive": {
-      "value": "#48bd00",
-      "type": "color",
-      "description": "swatch/green"
-    },
-    "Positive-Subtle": {
-      "value": "#f9f9f9",
-      "type": "color",
-      "description": "swatch/gray-2"
-    },
-    "Attention": {
-      "value": "#f99222",
-      "type": "color",
-      "description": "swatch/orange"
-    },
-    "Attention-Subtle": {
-      "value": "#fff2ec",
-      "type": "color",
-      "description": "swatch/orange-subtle"
-    },
-    "Negative": {
-      "value": "#e10000",
-      "type": "color",
-      "description": "swatch/red"
-    },
-    "Negative-Subtle": {
-      "value": "#ffecec",
-      "type": "color",
-      "description": "swatch/red-subtle"
-    }
-  },
-  "Button": {
-    "Primary": {
-      "Background": {
-        "value": "#0050a9",
-        "type": "color",
-        "description": "swatch/blue"
-      },
-      "Background-Hover": {
-        "value": "#003e7b",
-        "type": "color",
-        "description": "oddity"
-      },
-      "Background-Active": {
-        "value": "#002f55",
-        "type": "color",
-        "description": "swatch/blue-lowlight"
-      },
-      "Text": {
-        "value": "#ffffff",
-        "type": "color",
-        "description": "swatch/white"
-      },
-      "Outline-Hover": {
-        "value": "#008cff",
-        "type": "color",
-        "description": "swatch/blue-highlight"
-      },
-      "Background-Disabled": {
-        "value": "#dde0e2",
-        "type": "color",
-        "description": "swatch/gray-11"
-      },
-      "Text-Disabled": {
-        "value": "#7f878a",
-        "type": "color",
-        "description": "oddity"
-      }
-    },
-    "Primary-Reverse": {
-      "Background": {
-        "value": "#ffffff",
-        "type": "color",
-        "description": "swatch/white"
-      },
-      "Background-Hover": {
-        "value": "#f9f9f9",
-        "type": "color",
-        "description": "swatch/gray-2"
-      },
-      "Background-Active": {
-        "value": "#f2f2f2",
-        "type": "color",
-        "description": "swatch/gray-5"
-      },
-      "Text": {
-        "value": "#0050a9",
-        "type": "color",
-        "description": "swatch/blue"
-      },
-      "Outline-Hover": {
-        "value": "#008cff",
-        "type": "color",
-        "description": "swatch/blue-highlight"
-      },
-      "Background-Disabled": {
-        "value": "#ffffff",
-        "type": "color",
-        "description": "swatch/white"
-      },
-      "Text-Disabled": {
-        "value": "#7f878a",
-        "type": "color",
-        "description": "oddity"
-      }
-    },
-    "Primary-Alt": {
-      "Background": {
-        "value": "#008cff",
-        "type": "color",
-        "description": "swatch/blue-highlight"
-      },
-      "Background-Hover": {
-        "value": "#006bd0",
-        "type": "color",
-        "description": "oddity"
-      },
-      "Background-Active": {
-        "value": "#0050a9",
-        "type": "color",
-        "description": "swatch/blue"
-      },
-      "Text": {
-        "value": "#ffffff",
-        "type": "color",
-        "description": "swatch/white"
-      },
-      "Outline-Hover": {
-        "value": "#002f55",
-        "type": "color",
-        "description": "swatch/blue-lowlight"
-      },
-      "Background-Disabled": {
-        "value": "#dde0e2",
-        "type": "color",
-        "description": "swatch/gray-11"
-      },
-      "Text-Disabled": {
-        "value": "#7f878a",
-        "type": "color",
-        "description": "oddity"
-      }
-    },
-    "Secondary": {
-      "Background": {
-        "value": "#f9f9f9",
-        "type": "color",
-        "description": "swatch/gray-2"
-      },
-      "Background-Hover": {
-        "value": "#f2f2f2",
-        "type": "color",
-        "description": "swatch/gray-5"
-      },
-      "Background-Active": {
-        "value": "#dde0e2",
-        "type": "color",
-        "description": "swatch/gray-11"
-      },
       "Text": {
         "value": "#414b50",
         "type": "color",
         "description": "swatch/gray-69"
       },
-      "Border": {
-        "value": "#dde0e2",
+      "Subtle": {
+        "value": "#72777e",
         "type": "color",
-        "description": "swatch/gray-11"
+        "description": "swatch/gray-38"
       },
-      "Background-Disabled": {
+      "Reverse": {
         "value": "#ffffff",
         "type": "color",
         "description": "swatch/white"
       },
-      "Text-Disabled": {
-        "value": "#7f878a",
-        "type": "color",
-        "description": "oddity"
-      }
-    },
-    "Secondary-Alt": {
-      "Background": {
-        "value": "#f9f9f9",
-        "type": "color",
-        "description": "swatch/gray-2"
-      },
-      "Background-Hover": {
-        "value": "#0050a9",
-        "type": "color",
-        "description": "swatch/blue"
-      },
-      "Background-Active": {
-        "value": "#002f55",
-        "type": "color",
-        "description": "swatch/blue-lowlight"
-      },
-      "Text": {
-        "value": "#414b50",
-        "type": "color",
-        "description": "swatch/gray-69"
-      },
-      "Text-Hover": {
-        "value": "#ffffff",
-        "type": "color",
-        "description": "swatch/white"
-      },
-      "Border": {
-        "value": "#dde0e2",
-        "type": "color",
-        "description": "swatch/gray-11"
-      },
-      "Background-Disabled": {
-        "value": "#ffffff",
-        "type": "color",
-        "description": "swatch/white"
-      },
-      "Text-Disabled": {
-        "value": "#7f878a",
-        "type": "color",
-        "description": "oddity"
-      }
-    },
-    "Attention": {
-      "Background": {
+      "Super": {
         "value": "#f99222",
         "type": "color",
         "description": "swatch/orange"
       },
-      "Background-Hover": {
-        "value": "#d16019",
+      "Link": {
+        "value": "#0050a9",
         "type": "color",
-        "description": "oddity"
-      },
-      "Background-Active": {
-        "value": "#b03712",
+        "description": "swatch/blue"
+      }
+    },
+    "Link": {
+      "Link-Hover": {
+        "value": "#008cff",
         "type": "color",
-        "description": "swatch/orange-lowlight"
+        "description": "swatch/blue-highlight"
       },
-      "Text": {
+      "Link-Reverse": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "swatch/white"
+      },
+      "Link-Reverse-Hover": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "swatch/white"
+      },
+      "Link-Disabled": {
+        "value": "#7f878a",
+        "type": "color"
+      },
+      "Link-Disabled_Subtle": {
+        "value": "#dde0e2",
+        "type": "color",
+        "description": "swatch/gray-11"
+      }
+    },
+    "Input": {
+      "Background": {
         "value": "#ffffff",
         "type": "color",
         "description": "swatch/white"
       },
       "Background-Disabled": {
+        "value": "#f2f2f2",
+        "type": "color",
+        "description": "swatch/gray-5"
+      },
+      "Border-Default": {
+        "value": "#b7babd",
+        "type": "color",
+        "description": "swatch/gray-26"
+      },
+      "Border-Active": {
+        "value": "#0050a9",
+        "type": "color",
+        "description": "swatch/blue"
+      },
+      "Border-Disabled": {
+        "value": "#dde0e2",
+        "type": "color",
+        "description": "swatch/gray-11"
+      }
+    },
+    "Background": {
+      "Light-Primary": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "swatch/white"
+      },
+      "Light-Secondary": {
+        "value": "#f9f9f9",
+        "type": "color",
+        "description": "swatch/gray-2"
+      },
+      "Light-Tertiary": {
+        "value": "#f2f2f2",
+        "type": "color",
+        "description": "swatch/gray-5"
+      },
+      "Dark-Primary": {
+        "value": "#0050a9",
+        "type": "color",
+        "description": "swatch/blue"
+      },
+      "Dark-Secondary": {
+        "value": "#002f55",
+        "type": "color",
+        "description": "swatch/blue-lowlight"
+      },
+      "Dark-Tertiary": {
+        "value": "#008cff",
+        "type": "color",
+        "description": "swatch/blue-highlight"
+      },
+      "Glyph": {
+        "value": "#f99222",
+        "type": "color",
+        "description": "swatch/orange"
+      }
+    },
+    "Border": {
+      "Utility": {
         "value": "#dde0e2",
         "type": "color",
         "description": "swatch/gray-11"
       },
-      "Text-Disabled": {
-        "value": "#7f878a",
-        "type": "color",
-        "description": "oddity"
+      "Focus": {
+        "value": "#008cff80",
+        "type": "color"
       }
-    }
-  },
-  "Swatch": {
-    "Blue": {
-      "value": "#0050a9",
-      "type": "color"
     },
-    "Blue-Highlight": {
-      "value": "#008cff",
-      "type": "color"
+    "Pill": {
+      "Primary": {
+        "value": "#f99222",
+        "type": "color",
+        "description": "swatch/orange"
+      },
+      "Secondary": {
+        "value": "#008cff",
+        "type": "color",
+        "description": "swatch/blue-highlight"
+      },
+      "Tertiary": {
+        "value": "#333333",
+        "type": "color"
+      }
     },
-    "Blue-Lowlight": {
-      "value": "#002f55",
-      "type": "color"
+    "Utility": {
+      "Depth": {
+        "value": "#16171829",
+        "type": "color"
+      },
+      "Positive": {
+        "value": "#48bd00",
+        "type": "color",
+        "description": "swatch/green"
+      },
+      "Positive-Subtle": {
+        "value": "#f9f9f9",
+        "type": "color",
+        "description": "swatch/gray-2"
+      },
+      "Attention": {
+        "value": "#f99222",
+        "type": "color",
+        "description": "swatch/orange"
+      },
+      "Attention-Subtle": {
+        "value": "#fff2ec",
+        "type": "color",
+        "description": "swatch/orange-subtle"
+      },
+      "Negative": {
+        "value": "#e10000",
+        "type": "color",
+        "description": "swatch/red"
+      },
+      "Negative-Subtle": {
+        "value": "#ffecec",
+        "type": "color",
+        "description": "swatch/red-subtle"
+      }
     },
-    "Blue-Subtle": {
-      "value": "#edf8ff",
-      "type": "color"
+    "Button": {
+      "Primary": {
+        "Background": {
+          "value": "#0050a9",
+          "type": "color",
+          "description": "swatch/blue"
+        },
+        "Background-Hover": {
+          "value": "#003e7b",
+          "type": "color",
+          "description": "oddity"
+        },
+        "Background-Active": {
+          "value": "#002f55",
+          "type": "color",
+          "description": "swatch/blue-lowlight"
+        },
+        "Text": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "swatch/white"
+        },
+        "Outline-Hover": {
+          "value": "#008cff",
+          "type": "color",
+          "description": "swatch/blue-highlight"
+        },
+        "Background-Disabled": {
+          "value": "#dde0e2",
+          "type": "color",
+          "description": "swatch/gray-11"
+        },
+        "Text-Disabled": {
+          "value": "#7f878a",
+          "type": "color",
+          "description": "oddity"
+        }
+      },
+      "Primary-Reverse": {
+        "Background": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "swatch/white"
+        },
+        "Background-Hover": {
+          "value": "#f9f9f9",
+          "type": "color",
+          "description": "swatch/gray-2"
+        },
+        "Background-Active": {
+          "value": "#f2f2f2",
+          "type": "color",
+          "description": "swatch/gray-5"
+        },
+        "Text": {
+          "value": "#0050a9",
+          "type": "color",
+          "description": "swatch/blue"
+        },
+        "Outline-Hover": {
+          "value": "#008cff",
+          "type": "color",
+          "description": "swatch/blue-highlight"
+        },
+        "Background-Disabled": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "swatch/white"
+        },
+        "Text-Disabled": {
+          "value": "#7f878a",
+          "type": "color",
+          "description": "oddity"
+        }
+      },
+      "Primary-Alt": {
+        "Background": {
+          "value": "#008cff",
+          "type": "color",
+          "description": "swatch/blue-highlight"
+        },
+        "Background-Hover": {
+          "value": "#006bd0",
+          "type": "color",
+          "description": "oddity"
+        },
+        "Background-Active": {
+          "value": "#0050a9",
+          "type": "color",
+          "description": "swatch/blue"
+        },
+        "Text": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "swatch/white"
+        },
+        "Outline-Hover": {
+          "value": "#002f55",
+          "type": "color",
+          "description": "swatch/blue-lowlight"
+        },
+        "Background-Disabled": {
+          "value": "#dde0e2",
+          "type": "color",
+          "description": "swatch/gray-11"
+        },
+        "Text-Disabled": {
+          "value": "#7f878a",
+          "type": "color",
+          "description": "oddity"
+        }
+      },
+      "Secondary": {
+        "Background": {
+          "value": "#f9f9f9",
+          "type": "color",
+          "description": "swatch/gray-2"
+        },
+        "Background-Hover": {
+          "value": "#f2f2f2",
+          "type": "color",
+          "description": "swatch/gray-5"
+        },
+        "Background-Active": {
+          "value": "#dde0e2",
+          "type": "color",
+          "description": "swatch/gray-11"
+        },
+        "Text": {
+          "value": "#414b50",
+          "type": "color",
+          "description": "swatch/gray-69"
+        },
+        "Border": {
+          "value": "#dde0e2",
+          "type": "color",
+          "description": "swatch/gray-11"
+        },
+        "Background-Disabled": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "swatch/white"
+        },
+        "Text-Disabled": {
+          "value": "#7f878a",
+          "type": "color",
+          "description": "oddity"
+        }
+      },
+      "Secondary-Alt": {
+        "Background": {
+          "value": "#f9f9f9",
+          "type": "color",
+          "description": "swatch/gray-2"
+        },
+        "Background-Hover": {
+          "value": "#0050a9",
+          "type": "color",
+          "description": "swatch/blue"
+        },
+        "Background-Active": {
+          "value": "#002f55",
+          "type": "color",
+          "description": "swatch/blue-lowlight"
+        },
+        "Text": {
+          "value": "#414b50",
+          "type": "color",
+          "description": "swatch/gray-69"
+        },
+        "Text-Hover": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "swatch/white"
+        },
+        "Border": {
+          "value": "#dde0e2",
+          "type": "color",
+          "description": "swatch/gray-11"
+        },
+        "Background-Disabled": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "swatch/white"
+        },
+        "Text-Disabled": {
+          "value": "#7f878a",
+          "type": "color",
+          "description": "oddity"
+        }
+      },
+      "Attention": {
+        "Background": {
+          "value": "#f99222",
+          "type": "color",
+          "description": "swatch/orange"
+        },
+        "Background-Hover": {
+          "value": "#d16019",
+          "type": "color",
+          "description": "oddity"
+        },
+        "Background-Active": {
+          "value": "#b03712",
+          "type": "color",
+          "description": "swatch/orange-lowlight"
+        },
+        "Text": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "swatch/white"
+        },
+        "Background-Disabled": {
+          "value": "#dde0e2",
+          "type": "color",
+          "description": "swatch/gray-11"
+        },
+        "Text-Disabled": {
+          "value": "#7f878a",
+          "type": "color",
+          "description": "oddity"
+        }
+      }
     },
-    "Orange": {
-      "value": "#f99222",
-      "type": "color"
-    },
-    "Orange-Highlight": {
-      "value": "#ffcf3d",
-      "type": "color"
-    },
-    "Orange-Lowlight": {
-      "value": "#b03712",
-      "type": "color"
-    },
-    "Orange-Subtle": {
-      "value": "#fff2ec",
-      "type": "color"
-    },
-    "Red": {
-      "value": "#e10000",
-      "type": "color"
-    },
-    "Red-Highlight": {
-      "value": "#ff4f4f",
-      "type": "color"
-    },
-    "Red-Lowlight": {
-      "value": "#840000",
-      "type": "color"
-    },
-    "Red-Subtle": {
-      "value": "#ffecec",
-      "type": "color"
-    },
-    "Green": {
-      "value": "#48bd00",
-      "type": "color"
-    },
-    "Green-Lowlight": {
-      "value": "#237000",
-      "type": "color"
-    },
-    "White": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "Gray-2": {
-      "value": "#f9f9f9",
-      "type": "color"
-    },
-    "Gray-5": {
-      "value": "#f2f2f2",
-      "type": "color"
-    },
-    "Gray-11": {
-      "value": "#dde0e2",
-      "type": "color"
-    },
-    "Gray-26": {
-      "value": "#b7babd",
-      "type": "color"
-    },
-    "Gray-38": {
-      "value": "#72777e",
-      "type": "color"
-    },
-    "Gray-69": {
-      "value": "#414b50",
-      "type": "color"
-    },
-    "Gray-79": {
-      "value": "#161718",
-      "type": "color"
+    "Swatch": {
+      "Blue": {
+        "value": "#0050a9",
+        "type": "color"
+      },
+      "Blue-Highlight": {
+        "value": "#008cff",
+        "type": "color"
+      },
+      "Blue-Lowlight": {
+        "value": "#002f55",
+        "type": "color"
+      },
+      "Blue-Subtle": {
+        "value": "#edf8ff",
+        "type": "color"
+      },
+      "Orange": {
+        "value": "#f99222",
+        "type": "color"
+      },
+      "Orange-Highlight": {
+        "value": "#ffcf3d",
+        "type": "color"
+      },
+      "Orange-Lowlight": {
+        "value": "#b03712",
+        "type": "color"
+      },
+      "Orange-Subtle": {
+        "value": "#fff2ec",
+        "type": "color"
+      },
+      "Red": {
+        "value": "#e10000",
+        "type": "color"
+      },
+      "Red-Highlight": {
+        "value": "#ff4f4f",
+        "type": "color"
+      },
+      "Red-Lowlight": {
+        "value": "#840000",
+        "type": "color"
+      },
+      "Red-Subtle": {
+        "value": "#ffecec",
+        "type": "color"
+      },
+      "Green": {
+        "value": "#48bd00",
+        "type": "color"
+      },
+      "Green-Lowlight": {
+        "value": "#237000",
+        "type": "color"
+      },
+      "White": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "Gray-2": {
+        "value": "#f9f9f9",
+        "type": "color"
+      },
+      "Gray-5": {
+        "value": "#f2f2f2",
+        "type": "color"
+      },
+      "Gray-11": {
+        "value": "#dde0e2",
+        "type": "color"
+      },
+      "Gray-26": {
+        "value": "#b7babd",
+        "type": "color"
+      },
+      "Gray-38": {
+        "value": "#72777e",
+        "type": "color"
+      },
+      "Gray-69": {
+        "value": "#414b50",
+        "type": "color"
+      },
+      "Gray-79": {
+        "value": "#161718",
+        "type": "color"
+      }
     }
   },
   "fontFamilies": {
@@ -1374,13 +1376,6 @@
         "type": "dropShadow"
       },
       "type": "boxShadow"
-    }
-  },
-  "Depth": {
-    "Primary": {
-      "value": "#16171829",
-      "description": "Shadows",
-      "type": "color"
     }
   },
   "Card": {

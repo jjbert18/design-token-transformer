@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 14 Dec 2021 20:06:59 GMT
+// Generated on Tue, 14 Dec 2021 20:19:42 GMT
 
 
 #import "StyleDictionaryColor.h"
@@ -121,8 +121,7 @@
 #b7babd,
 #72777e,
 #414b50,
-#161718,
-#16171829
+#161718
     ];
   });
 
