@@ -418,11 +418,13 @@
       }
     }
   },
-  "_swatch": {
+  "swatch": {
     "blue": {
       "value": "#0050a9",
       "type": "color"
-    },
+    }
+  },
+  "_swatch": {
     "blue-highlight": {
       "value": "#008cff",
       "type": "color"
