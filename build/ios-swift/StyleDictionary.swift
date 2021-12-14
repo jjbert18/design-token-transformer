@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 14 Dec 2021 17:41:34 GMT
+// Generated on Tue, 14 Dec 2021 18:00:18 GMT
 
 
 import UIKit
@@ -54,45 +54,45 @@ public class StyleDictionary {
     public static let brandPrimary = #0050a9
     public static let brandSecondary = #008cff
     public static let brandTertiary = #002f55
-    public static let buttonAttentionBg = #f99222
-    public static let buttonAttentionBgActive = #b03712
-    public static let buttonAttentionBgDisabled = #dde0e2
-    public static let buttonAttentionBgHover = #d16019
+    public static let buttonAttentionBackground = #f99222
+    public static let buttonAttentionBackgroundActive = #b03712
+    public static let buttonAttentionBackgroundDisabled = #dde0e2
+    public static let buttonAttentionBackgroundHover = #d16019
     public static let buttonAttentionText = #ffffff
     public static let buttonAttentionTextDisabled = #7f878a
-    public static let buttonPrimaryAltBg = #008cff
-    public static let buttonPrimaryAltBgActive = #0050a9
-    public static let buttonPrimaryAltBgDisabled = #dde0e2
-    public static let buttonPrimaryAltBgHover = #006bd0
+    public static let buttonPrimaryAltBackground = #008cff
+    public static let buttonPrimaryAltBackgroundActive = #0050a9
+    public static let buttonPrimaryAltBackgroundDisabled = #dde0e2
+    public static let buttonPrimaryAltBackgroundHover = #006bd0
     public static let buttonPrimaryAltOutlineHover = #002f55
     public static let buttonPrimaryAltText = #ffffff
     public static let buttonPrimaryAltTextDisabled = #7f878a
-    public static let buttonPrimaryBg = #0050a9
-    public static let buttonPrimaryBgActive = #002f55
-    public static let buttonPrimaryBgDisabled = #dde0e2
-    public static let buttonPrimaryBgHover = #003e7b
+    public static let buttonPrimaryBackground = #0050a9
+    public static let buttonPrimaryBackgroundActive = #002f55
+    public static let buttonPrimaryBackgroundDisabled = #dde0e2
+    public static let buttonPrimaryBackgroundHover = #003e7b
     public static let buttonPrimaryOutlineHover = #008cff
-    public static let buttonPrimaryReverseBg = #ffffff
-    public static let buttonPrimaryReverseBgActive = #f2f2f2
-    public static let buttonPrimaryReverseBgDisabled = #ffffff
-    public static let buttonPrimaryReverseBgHover = #f9f9f9
+    public static let buttonPrimaryReverseBackground = #ffffff
+    public static let buttonPrimaryReverseBackgroundActive = #f2f2f2
+    public static let buttonPrimaryReverseBackgroundDisabled = #ffffff
+    public static let buttonPrimaryReverseBackgroundHover = #f9f9f9
     public static let buttonPrimaryReverseOutlineHover = #008cff
     public static let buttonPrimaryReverseText = #0050a9
     public static let buttonPrimaryReverseTextDisabled = #7f878a
     public static let buttonPrimaryText = #ffffff
     public static let buttonPrimaryTextDisabled = #7f878a
-    public static let buttonSecondaryAltBg = #f9f9f9
-    public static let buttonSecondaryAltBgActive = #002f55
-    public static let buttonSecondaryAltBgDisabled = #ffffff
-    public static let buttonSecondaryAltBgHover = #0050a9
+    public static let buttonSecondaryAltBackground = #f9f9f9
+    public static let buttonSecondaryAltBackgroundActive = #002f55
+    public static let buttonSecondaryAltBackgroundDisabled = #ffffff
+    public static let buttonSecondaryAltBackgroundHover = #0050a9
     public static let buttonSecondaryAltBorder = #dde0e2
     public static let buttonSecondaryAltText = #414b50
     public static let buttonSecondaryAltTextDisabled = #7f878a
     public static let buttonSecondaryAltTextHover = #ffffff
-    public static let buttonSecondaryBg = #f9f9f9
-    public static let buttonSecondaryBgActive = #dde0e2
-    public static let buttonSecondaryBgDisabled = #ffffff
-    public static let buttonSecondaryBgHover = #f2f2f2
+    public static let buttonSecondaryBackground = #f9f9f9
+    public static let buttonSecondaryBackgroundActive = #dde0e2
+    public static let buttonSecondaryBackgroundDisabled = #ffffff
+    public static let buttonSecondaryBackgroundHover = #f2f2f2
     public static let buttonSecondaryBorder = #dde0e2
     public static let buttonSecondaryText = #414b50
     public static let buttonSecondaryTextDisabled = #7f878a

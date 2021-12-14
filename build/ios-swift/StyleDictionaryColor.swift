@@ -4,17 +4,17 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 14 Dec 2021 17:41:34 GMT
+// Generated on Tue, 14 Dec 2021 18:00:18 GMT
 
 
 import UIKit
 
 public enum StyleDictionaryColor {
     public static let attention = #f99222
-    public static let attentionBg = #f99222
-    public static let attentionBgActive = #b03712
-    public static let attentionBgDisabled = #dde0e2
-    public static let attentionBgHover = #d16019
+    public static let attentionBackground = #f99222
+    public static let attentionBackgroundActive = #b03712
+    public static let attentionBackgroundDisabled = #dde0e2
+    public static let attentionBackgroundHover = #d16019
     public static let attentionSubtle = #fff2ec
     public static let attentionText = #ffffff
     public static let attentionTextDisabled = #7f878a
@@ -63,22 +63,22 @@ public enum StyleDictionaryColor {
     public static let positiveSubtle = #f9f9f9
     public static let primary = #0050a9
     public static let primary = #f99222
-    public static let primaryAltBg = #008cff
-    public static let primaryAltBgActive = #0050a9
-    public static let primaryAltBgDisabled = #dde0e2
-    public static let primaryAltBgHover = #006bd0
+    public static let primaryAltBackground = #008cff
+    public static let primaryAltBackgroundActive = #0050a9
+    public static let primaryAltBackgroundDisabled = #dde0e2
+    public static let primaryAltBackgroundHover = #006bd0
     public static let primaryAltOutlineHover = #002f55
     public static let primaryAltText = #ffffff
     public static let primaryAltTextDisabled = #7f878a
-    public static let primaryBg = #0050a9
-    public static let primaryBgActive = #002f55
-    public static let primaryBgDisabled = #dde0e2
-    public static let primaryBgHover = #003e7b
+    public static let primaryBackground = #0050a9
+    public static let primaryBackgroundActive = #002f55
+    public static let primaryBackgroundDisabled = #dde0e2
+    public static let primaryBackgroundHover = #003e7b
     public static let primaryOutlineHover = #008cff
-    public static let primaryReverseBg = #ffffff
-    public static let primaryReverseBgActive = #f2f2f2
-    public static let primaryReverseBgDisabled = #ffffff
-    public static let primaryReverseBgHover = #f9f9f9
+    public static let primaryReverseBackground = #ffffff
+    public static let primaryReverseBackgroundActive = #f2f2f2
+    public static let primaryReverseBackgroundDisabled = #ffffff
+    public static let primaryReverseBackgroundHover = #f9f9f9
     public static let primaryReverseOutlineHover = #008cff
     public static let primaryReverseText = #0050a9
     public static let primaryReverseTextDisabled = #7f878a
@@ -92,18 +92,18 @@ public enum StyleDictionaryColor {
     public static let reverse = #ffffff
     public static let secondary = #008cff
     public static let secondary = #008cff
-    public static let secondaryAltBg = #f9f9f9
-    public static let secondaryAltBgActive = #002f55
-    public static let secondaryAltBgDisabled = #ffffff
-    public static let secondaryAltBgHover = #0050a9
+    public static let secondaryAltBackground = #f9f9f9
+    public static let secondaryAltBackgroundActive = #002f55
+    public static let secondaryAltBackgroundDisabled = #ffffff
+    public static let secondaryAltBackgroundHover = #0050a9
     public static let secondaryAltBorder = #dde0e2
     public static let secondaryAltText = #414b50
     public static let secondaryAltTextDisabled = #7f878a
     public static let secondaryAltTextHover = #ffffff
-    public static let secondaryBg = #f9f9f9
-    public static let secondaryBgActive = #dde0e2
-    public static let secondaryBgDisabled = #ffffff
-    public static let secondaryBgHover = #f2f2f2
+    public static let secondaryBackground = #f9f9f9
+    public static let secondaryBackgroundActive = #dde0e2
+    public static let secondaryBackgroundDisabled = #ffffff
+    public static let secondaryBackgroundHover = #f2f2f2
     public static let secondaryBorder = #dde0e2
     public static let secondaryText = #414b50
     public static let secondaryTextDisabled = #7f878a

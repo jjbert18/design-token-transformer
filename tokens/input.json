@@ -194,224 +194,224 @@
       "description": "swatch/red-subtle"
     }
   },
-  "button": {
-    "primary": {
-      "bg": {
+  "Button": {
+    "Primary": {
+      "Background": {
         "value": "#0050a9",
         "type": "color",
         "description": "swatch/blue"
       },
-      "bg hover": {
+      "Background-Hover": {
         "value": "#003e7b",
         "type": "color",
         "description": "oddity"
       },
-      "bg active": {
+      "Background-Active": {
         "value": "#002f55",
         "type": "color",
         "description": "swatch/blue-lowlight"
       },
-      "text": {
+      "Text": {
         "value": "#ffffff",
         "type": "color",
         "description": "swatch/white"
       },
-      "outline-hover": {
+      "Outline-Hover": {
         "value": "#008cff",
         "type": "color",
         "description": "swatch/blue-highlight"
       },
-      "bg disabled": {
+      "Background-Disabled": {
         "value": "#dde0e2",
         "type": "color",
         "description": "swatch/gray-11"
       },
-      "text disabled": {
+      "Text-Disabled": {
         "value": "#7f878a",
         "type": "color",
         "description": "oddity"
       }
     },
-    "primary reverse": {
-      "bg": {
+    "Primary-Reverse": {
+      "Background": {
         "value": "#ffffff",
         "type": "color",
         "description": "swatch/white"
       },
-      "bg hover": {
+      "Background-Hover": {
         "value": "#f9f9f9",
         "type": "color",
         "description": "swatch/gray-2"
       },
-      "bg active": {
+      "Background-Active": {
         "value": "#f2f2f2",
         "type": "color",
         "description": "swatch/gray-5"
       },
-      "text": {
+      "Text": {
         "value": "#0050a9",
         "type": "color",
         "description": "swatch/blue"
       },
-      "outline hover": {
+      "Outline-Hover": {
         "value": "#008cff",
         "type": "color",
         "description": "swatch/blue-highlight"
       },
-      "bg disabled": {
+      "Background-Disabled": {
         "value": "#ffffff",
         "type": "color",
         "description": "swatch/white"
       },
-      "text disabled": {
+      "Text-Disabled": {
         "value": "#7f878a",
         "type": "color",
         "description": "oddity"
       }
     },
-    "primary alt": {
-      "bg": {
+    "Primary-Alt": {
+      "Background": {
         "value": "#008cff",
         "type": "color",
         "description": "swatch/blue-highlight"
       },
-      "bg hover": {
+      "Background-Hover": {
         "value": "#006bd0",
         "type": "color",
         "description": "oddity"
       },
-      "bg active": {
+      "Background-Active": {
         "value": "#0050a9",
         "type": "color",
         "description": "swatch/blue"
       },
-      "text": {
+      "Text": {
         "value": "#ffffff",
         "type": "color",
         "description": "swatch/white"
       },
-      "outline hover": {
+      "Outline-Hover": {
         "value": "#002f55",
         "type": "color",
         "description": "swatch/blue-lowlight"
       },
-      "bg disabled": {
+      "Background-Disabled": {
         "value": "#dde0e2",
         "type": "color",
         "description": "swatch/gray-11"
       },
-      "text disabled": {
+      "Text-Disabled": {
         "value": "#7f878a",
         "type": "color",
         "description": "oddity"
       }
     },
-    "secondary": {
-      "bg": {
+    "Secondary": {
+      "Background": {
         "value": "#f9f9f9",
         "type": "color",
         "description": "swatch/gray-2"
       },
-      "bg hover": {
+      "Background-Hover": {
         "value": "#f2f2f2",
         "type": "color",
         "description": "swatch/gray-5"
       },
-      "bg active": {
+      "Background-Active": {
         "value": "#dde0e2",
         "type": "color",
         "description": "swatch/gray-11"
       },
-      "text": {
+      "Text": {
         "value": "#414b50",
         "type": "color",
         "description": "swatch/gray-69"
       },
-      "border": {
+      "Border": {
         "value": "#dde0e2",
         "type": "color",
         "description": "swatch/gray-11"
       },
-      "bg disabled": {
+      "Background-Disabled": {
         "value": "#ffffff",
         "type": "color",
         "description": "swatch/white"
       },
-      "text disabled": {
+      "Text-Disabled": {
         "value": "#7f878a",
         "type": "color",
         "description": "oddity"
       }
     },
-    "secondary alt": {
-      "bg": {
+    "Secondary-Alt": {
+      "Background": {
         "value": "#f9f9f9",
         "type": "color",
         "description": "swatch/gray-2"
       },
-      "bg hover": {
+      "Background-Hover": {
         "value": "#0050a9",
         "type": "color",
         "description": "swatch/blue"
       },
-      "bg active": {
+      "Background-Active": {
         "value": "#002f55",
         "type": "color",
         "description": "swatch/blue-lowlight"
       },
-      "text": {
+      "Text": {
         "value": "#414b50",
         "type": "color",
         "description": "swatch/gray-69"
       },
-      "text hover": {
+      "Text-Hover": {
         "value": "#ffffff",
         "type": "color",
         "description": "swatch/white"
       },
-      "border": {
+      "Border": {
         "value": "#dde0e2",
         "type": "color",
         "description": "swatch/gray-11"
       },
-      "bg disabled": {
+      "Background-Disabled": {
         "value": "#ffffff",
         "type": "color",
         "description": "swatch/white"
       },
-      "text disabled": {
+      "Text-Disabled": {
         "value": "#7f878a",
         "type": "color",
         "description": "oddity"
       }
     },
-    "attention": {
-      "bg": {
+    "Attention": {
+      "Background": {
         "value": "#f99222",
         "type": "color",
         "description": "swatch/orange"
       },
-      "bg hover": {
+      "Background-Hover": {
         "value": "#d16019",
         "type": "color",
         "description": "oddity"
       },
-      "bg active": {
+      "Background-Active": {
         "value": "#b03712",
         "type": "color",
         "description": "swatch/orange-lowlight"
       },
-      "text": {
+      "Text": {
         "value": "#ffffff",
         "type": "color",
         "description": "swatch/white"
       },
-      "bg disabled": {
+      "Background-Disabled": {
         "value": "#dde0e2",
         "type": "color",
         "description": "swatch/gray-11"
       },
-      "text disabled": {
+      "Text-Disabled": {
         "value": "#7f878a",
         "type": "color",
         "description": "oddity"
