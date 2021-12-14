@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 14 Dec 2021 18:00:18 GMT
+// Generated on Tue, 14 Dec 2021 19:27:54 GMT
 
 
 import UIKit
@@ -96,6 +96,8 @@ public class StyleDictionary {
     public static let buttonSecondaryBorder = #dde0e2
     public static let buttonSecondaryText = #414b50
     public static let buttonSecondaryTextDisabled = #7f878a
+    public static let depthGeneralOne = [object Object]
+    public static let depthPrimary = #16171829
     public static let display1BoldFontFamily = Helvetica Neue
     public static let display1BoldFontSize = 44
     public static let display1BoldFontWeight = Bold

@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 14 Dec 2021 18:00:18 GMT
+// Generated on Tue, 14 Dec 2021 19:27:54 GMT
 
 
 import UIKit
@@ -63,6 +63,7 @@ public enum StyleDictionaryColor {
     public static let positiveSubtle = #f9f9f9
     public static let primary = #0050a9
     public static let primary = #f99222
+    public static let primary = #16171829
     public static let primaryAltBackground = #008cff
     public static let primaryAltBackgroundActive = #0050a9
     public static let primaryAltBackgroundDisabled = #dde0e2

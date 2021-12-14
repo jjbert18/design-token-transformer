@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 14 Dec 2021 18:00:18 GMT
+// Generated on Tue, 14 Dec 2021 19:27:54 GMT
 
 
 #import <UIKit/UIKit.h>
@@ -113,7 +113,8 @@ SwatchGray69,
 SwatchGray79,
 DsPurple,
 DsDarkGray,
-DsMedGray
+DsMedGray,
+DepthPrimary
 };
 
 @interface StyleDictionaryColor : NSObject

@@ -1408,5 +1408,23 @@
       "description": "Border Radius",
       "type": "other"
     }
+  },
+  "Depth": {
+    "General-One": {
+      "value": {
+        "x": 0,
+        "y": "2px",
+        "blur": "4px",
+        "spread": 0,
+        "color": "#16171829",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "Primary": {
+      "value": "#16171829",
+      "description": "Shadows",
+      "type": "color"
+    }
   }
 }

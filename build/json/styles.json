@@ -343,5 +343,7 @@
   "RadiiSmall": 2,
   "RadiiMedium": 4,
   "RadiiLarge": 8,
-  "RadiiXlarge": 12
+  "RadiiXlarge": 12,
+  "DepthGeneralOne": {"x":0,"y":"2px","blur":"4px","spread":0,"color":"#16171829","type":"dropShadow"},
+  "DepthPrimary": "#16171829"
 }
