@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 14 Dec 2021 19:33:27 GMT
+// Generated on Tue, 14 Dec 2021 19:38:02 GMT
 
 
 import UIKit
@@ -183,6 +183,7 @@ public class StyleDictionary {
     public static let generalDepthOne = [object Object]
     public static let generalDepthThree = [object Object]
     public static let generalDepthTwo = [object Object]
+    public static let generalFocus = [object Object]
     public static let generalNavigation = [object Object]
     public static let heading2FontFamily = Helvetica Neue
     public static let heading2FontSize = 22

@@ -1453,6 +1453,17 @@
         "type": "dropShadow"
       },
       "type": "boxShadow"
+    },
+    "Focus": {
+      "value": {
+        "x": 0,
+        "y": "4px",
+        "blur": 0,
+        "spread": 0,
+        "color": "#008cff80",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
     }
   },
   "Depth": {
@@ -1480,7 +1491,7 @@
         "y": "4px",
         "blur": "16px",
         "spread": "1px",
-        "color": "#16171829",
+        "color": "#0000ff",
         "type": "dropShadow"
       },
       "type": "boxShadow"

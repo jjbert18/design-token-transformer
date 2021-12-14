@@ -348,6 +348,7 @@
   --general-depth-two: [object Object];
   --general-depth-three: [object Object];
   --general-navigation: [object Object];
+  --general-focus: [object Object];
   --depth-primary: #16171829;
   --card-default: [object Object];
   --card-hover: [object Object];

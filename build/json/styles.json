@@ -348,7 +348,8 @@
   "GeneralDepthTwo": {"x":0,"y":"4px","blur":"12px","spread":0,"color":"#16171829","type":"dropShadow"},
   "GeneralDepthThree": {"x":0,"y":"8px","blur":"24px","spread":0,"color":"#16171829","type":"dropShadow"},
   "GeneralNavigation": {"x":0,"y":"1px","blur":"3px","spread":0,"color":"#16171829","type":"dropShadow"},
+  "GeneralFocus": {"x":0,"y":"4px","blur":0,"spread":0,"color":"#008cff80","type":"dropShadow"},
   "DepthPrimary": "#16171829",
   "CardDefault": {"x":0,"y":"2px","blur":"8px","spread":"1px","color":"#16171829","type":"dropShadow"},
-  "CardHover": {"x":0,"y":"4px","blur":"16px","spread":"1px","color":"#16171829","type":"dropShadow"}
+  "CardHover": {"x":0,"y":"4px","blur":"16px","spread":"1px","color":"#0000ff","type":"dropShadow"}
 }
